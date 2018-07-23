@@ -9,6 +9,6 @@ Sklearn2sql provides a framework for translating [scikit-learn](https://github.c
 The goal of this POC is to see if this framework can be applied to R caret models, eventually by using a common JSON format with python version models (mapping R with python equivalent models).
 
 Some machine learning libraries (xgboost , lightGBM) already support exporting and loading models in a specific 
-JSON foramt, which makes implementing these cases straightforward (already supported in skleartn2sql).
+JSON format, which makes implementing these cases straightforward (python models are already supported in sklearn2sql).
 
 Your feedback is welcome.
