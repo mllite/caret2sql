@@ -1,0 +1,427 @@
+{'mMethod': 'AdaBag', 'mLabel': 'Bagged AdaBoost', 'mLibraries': ['adabag', 'plyr'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Ensemble Model', 'Boosting', 'Bagging']}
+{'mMethod': 'AdaBoost.M1', 'mLabel': 'AdaBoost.M1', 'mLibraries': ['adabag', 'plyr'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Ensemble Model', 'Boosting', '']}
+{'mMethod': 'adaboost', 'mLabel': 'AdaBoost Classification Trees', 'mLibraries': ['fastAdaboost'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Ensemble Model', 'Boosting', '']}
+{'mMethod': 'ada', 'mLabel': 'Boosted Classification Trees', 'mLibraries': ['ada', 'plyr'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Ensemble Model', 'Boosting', '']}
+{'mMethod': 'amdai', 'mLabel': 'Adaptive Mixture Discriminant Analysis', 'mLibraries': ['adaptDA'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Mixture Model']}
+{'mMethod': 'ANFIS', 'mLabel': 'Adaptive-Network-Based Fuzzy Inference System', 'mLibraries': ['frbs'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'avNNet', 'mLabel': 'Model Averaged Neural Network,', 'mLibraries': ['nnet'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Neural Network', 'Ensemble Model', 'Bagging', 'L2 Regularization', 'Accepts Case Weights']}
+{'mMethod': 'awnb', 'mLabel': 'Naive Bayes Classifier with Attribute Weighting', 'mLibraries': ['bnclassify'], 'mTypes': ['Classification'], 'mTags': ['Bayesian Model', 'Categorical Predictors Only']}
+{'mMethod': 'awtan', 'mLabel': ' Tree Augmented Naive Bayes Classifier with Attribute Weightin', 'mLibraries': ['bnclassify'], 'mTypes': ['Classification'], 'mTags': ['Bayesian Model', 'Categorical Predictors Only']}
+{'mMethod': 'bagEarthGCV', 'mLabel': 'Bagged MARS using gCV Pruning,', 'mLibraries': ['earth'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Multivariate Adaptive Regression Splines', 'Ensemble Model', '']}
+{'mMethod': 'bagEarth', 'mLabel': 'Bagged MARS,', 'mLibraries': ['earth'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Multivariate Adaptive Regression Splines', 'Ensemble Model', '']}
+{'mMethod': 'bagFDAGCV', 'mLabel': 'Bagged FDA using gCV Pruning,', 'mLibraries': ['earth'], 'mTypes': ['Classification'], 'mTags': ['Multivariate Adaptive Regression Splines', 'Ensemble Model', '']}
+{'mMethod': 'bagFDA', 'mLabel': 'Bagged Flexible Discriminant Analysis,', 'mLibraries': ['earth', 'mda'], 'mTypes': ['Classification'], 'mTags': ['Multivariate Adaptive Regression Splines', 'Ensemble Model', '']}
+{'mMethod': 'bag', 'mLabel': 'Bagged Model', 'mLibraries': ['caret'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Bagging', 'Ensemble Model']}
+{'mMethod': 'bam', 'mLabel': 'Generalized Additive Model using Splines', 'mLibraries': ['mgcv'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Generalized Additive Model']}
+{'mMethod': 'bartMachine', 'mLabel': 'Bayesian Additive Regression Trees', 'mLibraries': ['bartMachine'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', 'Bayesian Model', 'Two Class Only']}
+{'mMethod': 'bayesglm', 'mLabel': 'Bayesian Generalized Linear Model', 'mLibraries': ['arm'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Logistic Regression', '']}
+{'mMethod': 'binda', 'mLabel': 'Binary Discriminant Analysis', 'mLibraries': ['binda'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Two Class Only', 'Binary Predictors Only']}
+{'mMethod': 'blackboost', 'mLabel': 'Boosted Tree,', 'mLibraries': ['party', 'mboost', 'plyr'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Ensemble Model', 'Boosting', 'Accepts Case Weights']}
+{'mMethod': 'blassoAveraged', 'mLabel': 'Bayesian Ridge Regression (Model Averaged)', 'mLibraries': ['monomvn'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Bayesian Model', 'L1 Regularization']}
+{'mMethod': 'blasso', 'mLabel': 'The Bayesian lasso', 'mLibraries': ['monomvn'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Bayesian Model', '']}
+{'mMethod': 'bridge', 'mLabel': 'Bayesian Ridge Regression', 'mLibraries': ['monomvn'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Bayesian Model', 'L2 Regularization']}
+{'mMethod': 'brnn', 'mLabel': 'Bayesian Regularized Neural Networks', 'mLibraries': ['brnn'], 'mTypes': ['Regression'], 'mTags': ['Bayesian Model', 'Neural Network', 'Regularization']}
+{'mMethod': 'BstLm', 'mLabel': 'Boosted Linear Model,', 'mLibraries': ['bst', 'plyr'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Linear Regression', 'Ensemble Model', 'Boosting']}
+{'mMethod': 'bstSm', 'mLabel': 'Boosted Smoothing Spline,', 'mLibraries': ['bst', 'plyr'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Ensemble Model', 'Boosting', 'Implicit Feature Selection']}
+{'mMethod': 'bstTree', 'mLabel': 'Boosted Tree,', 'mLibraries': ['bst', 'plyr'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Ensemble Model', 'Boosting']}
+{'mMethod': 'C5.0Cost', 'mLabel': 'Cost-Sensitive C5.0', 'mLibraries': ['C50', 'plyr'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Rule-Based Model', 'Implicit Feature Selection']}
+{'mMethod': 'C5.0', 'mLabel': 'C5.0,', 'mLibraries': ['C50', 'plyr'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Rule-Based Model', 'Implicit Feature Selection']}
+{'mMethod': 'C5.0Rules', 'mLabel': 'Single C5.0 Ruleset,', 'mLibraries': ['C50'], 'mTypes': ['Classification'], 'mTags': ['Rule-Based Model', 'Implicit Feature Selection', 'Handle Missing Predictor Data', 'Accepts Case Weights']}
+{'mMethod': 'C5.0Tree', 'mLabel': 'Single C5.0 Tree,', 'mLibraries': ['C50'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', '']}
+{'mMethod': 'cforest', 'mLabel': 'Conditional Inference Random Forest', 'mLibraries': ['party'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Random Forest', 'Ensemble Model', 'Bagging', 'Implicit Feature Selection', 'Accepts Case Weights']}
+{'mMethod': 'chaid', 'mLabel': 'CHi-squared Automated Interaction Detection', 'mLibraries': ['CHAID'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', 'Two Class Only', 'Accepts Case Weights']}
+{'mMethod': 'CSimca', 'mLabel': 'SIMCA', 'mLibraries': ['rrcov', 'rrcovHD'], 'mTypes': ['Classification'], 'mTags': ['Robust Model']}
+{'mMethod': 'ctree2', 'mLabel': 'Conditional Inference Tree', 'mLibraries': ['party'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', 'Accepts Case Weights']}
+{'mMethod': 'ctree', 'mLabel': 'Conditional Inference Tree', 'mLibraries': ['party'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', 'Accepts Case Weights']}
+{'mMethod': 'cubist', 'mLabel': 'Cubist', 'mLibraries': ['Cubist'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model', 'Boosting', 'Ensemble Model', '']}
+{'mMethod': 'dda', 'mLabel': 'Diagonal Discriminant Analysis', 'mLibraries': ['sparsediscrim'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Linear Classifier', 'Polynomial Model', 'Regularization']}
+{'mMethod': 'deepboost', 'mLabel': 'DeepBoost', 'mLibraries': ['deepboost'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Boosting', 'Ensemble Model', 'Implicit Feature Selection', '']}
+{'mMethod': 'DENFIS', 'mLabel': 'Dynamic Evolving Neural-Fuzzy Inference System ', 'mLibraries': ['frbs'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'dnn', 'mLabel': 'Stacked AutoEncoder Deep Neural Network', 'mLibraries': ['deepnet'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Neural Network']}
+{'mMethod': 'dwdLinear', 'mLabel': 'Linear Distance Weighted Discrimination', 'mLibraries': ['kerndwd'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'L2 Regularization', '']}
+{'mMethod': 'dwdPoly', 'mLabel': 'Distance Weighted Discrimination with Polynomial Kernel', 'mLibraries': ['kerndwd'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'L2 Regularization', '']}
+{'mMethod': 'dwdRadial', 'mLabel': 'Distance Weighted Discrimination with Radial Basis Function Kernel', 'mLibraries': ['kernlab', 'kerndwd'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'L2 Regularization', '']}
+{'mMethod': 'earth', 'mLabel': 'Multivariate Adaptive Regression Spline', 'mLibraries': ['earth'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Multivariate Adaptive Regression Splines']}
+{'mMethod': 'elm', 'mLabel': 'Extreme Learning Machine', 'mLibraries': ['elmNN'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Neural Network']}
+{'mMethod': 'enet', 'mLabel': 'Elasticnet', 'mLibraries': ['elasticnet'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Implicit Feature Selection', 'L1 Regularization']}
+{'mMethod': 'evtree', 'mLabel': 'Tree Models from Genetic Algorithms', 'mLibraries': ['evtree'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', 'Accepts Case Weights']}
+{'mMethod': 'extraTrees', 'mLabel': 'Random Forest by Randomization', 'mLibraries': ['extraTrees'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Random Forest', 'Ensemble Model', 'Bagging', 'Implicit Feature Selection']}
+{'mMethod': 'fda', 'mLabel': 'Flexible Discriminant Analysis', 'mLibraries': ['earth', 'mda'], 'mTypes': ['Classification'], 'mTags': ['Multivariate Adaptive Regression Splines', 'Implicit Feature Selection']}
+{'mMethod': 'FH.GBML', 'mLabel': 'Fuzzy Rules Using Genetic Cooperative-Competitive Learning and Pittsburgh', 'mLibraries': ['frbs'], 'mTypes': ['Classification'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'FIR.DM', 'mLabel': 'Fuzzy Inference Rules by Descent Method', 'mLibraries': ['frbs'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'foba', 'mLabel': 'Ridge Regression with Variable Selection', 'mLibraries': ['foba'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Ridge Regression', '']}
+{'mMethod': 'FRBCS.CHI', 'mLabel': "Fuzzy Rules Using Chi's Method", 'mLibraries': ['frbs'], 'mTypes': ['Classification'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'FRBCS.W', 'mLabel': 'Fuzzy Rules with Weight Factor', 'mLibraries': ['frbs'], 'mTypes': ['Classification'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'FS.HGD', 'mLabel': 'Simplified TSK Fuzzy Rules', 'mLibraries': ['frbs'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'gamboost', 'mLabel': 'Boosted Generalized Additive Model', 'mLibraries': ['mboost', 'plyr', 'import'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Additive Model', 'Ensemble Model', '']}
+{'mMethod': 'gamLoess', 'mLabel': 'Generalized Additive Model using LOESS', 'mLibraries': ['gam'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Generalized Additive Model']}
+{'mMethod': 'gam', 'mLabel': 'Generalized Additive Model using Splines', 'mLibraries': ['mgcv'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Generalized Additive Model']}
+{'mMethod': 'gamSpline', 'mLabel': 'Generalized Additive Model using Splines', 'mLibraries': ['gam'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Generalized Additive Model']}
+{'mMethod': 'gaussprLinear', 'mLabel': 'Gaussian Process', 'mLibraries': ['kernlab'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Gaussian Process', 'Linear Classifier']}
+{'mMethod': 'gaussprPoly', 'mLabel': 'Gaussian Process with Polynomial Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Gaussian Process', 'Polynomial Model']}
+{'mMethod': 'gaussprRadial', 'mLabel': 'Gaussian Process with Radial Basis Function Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Gaussian Process', 'Radial Basis Function']}
+{'mMethod': 'gbm_h2o', 'mLabel': 'Gradient Boosting Machines', 'mLibraries': ['h2o'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Boosting', '']}
+{'mMethod': 'gbm', 'mLabel': 'Stochastic Gradient Boosting', 'mLibraries': ['gbm', 'plyr'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Boosting', 'Ensemble Model', 'Implicit Feature Selection', 'Accepts Case Weights']}
+{'mMethod': 'gcvEarth', 'mLabel': 'Multivariate Adaptive Regression Splines', 'mLibraries': ['earth'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Multivariate Adaptive Regression Splines', 'Implicit Feature Selection', '']}
+{'mMethod': 'GFS.FR.MOGUL', 'mLabel': 'Fuzzy Rules via MOGUL', 'mLibraries': ['frbs'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'GFS.LTS', 'mLabel': 'Genetic Lateral Tuning and Rule Selection of Linguistic Fuzzy Systems', 'mLibraries': ['frbs'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'GFS.THRIFT', 'mLabel': 'Fuzzy Rules via Thrift', 'mLibraries': ['frbs'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'glmboost', 'mLabel': 'Boosted Generalized Linear Model', 'mLibraries': ['plyr', 'mboost'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Ensemble Model', 'Boosting', '']}
+{'mMethod': 'glm.nb', 'mLabel': 'Negative Binomial Generalized Linear Model', 'mLibraries': ['MASS'], 'mTypes': ['Regression'], 'mTags': ['Generalized Linear Model', 'Accepts Case Weights']}
+{'mMethod': 'glmnet_h2o', 'mLabel': 'glmnet', 'mLibraries': ['h2o'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Implicit Feature Selection', '']}
+{'mMethod': 'glmnet', 'mLabel': 'glmnet', 'mLibraries': ['glmnet', 'Matrix'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Implicit Feature Selection']}
+{'mMethod': 'glm', 'mLabel': 'Generalized Linear Model', 'mLibraries': [], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Linear Classifier', '']}
+{'mMethod': 'glmStepAIC', 'mLabel': 'Generalized Linear Model with Stepwise Feature Selection', 'mLibraries': ['MASS'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Feature Selection Wrapper', 'Linear Classifier']}
+{'mMethod': 'gpls', 'mLabel': 'Generalized Partial Least Squares', 'mLibraries': ['gpls'], 'mTypes': ['Classification'], 'mTags': ['Logistic Regression', 'Partial Least Squares', 'Linear Classifier']}
+{'mMethod': 'hda', 'mLabel': 'Heteroscedastic Discriminant Analysis', 'mLibraries': ['hda'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Linear Classifier', 'Regularization']}
+{'mMethod': 'hdda', 'mLabel': 'High Dimensional Discriminant Analysis', 'mLibraries': ['HDclassif'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Linear Classifier']}
+{'mMethod': 'hdrda', 'mLabel': 'High-Dimensional Regularized Discriminant Analysis', 'mLibraries': ['sparsediscrim'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Polynomial Model', 'Regularization']}
+{'mMethod': 'HYFIS', 'mLabel': 'Hybrid Neural Fuzzy Inference System', 'mLibraries': ['frbs'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'icr', 'mLabel': 'Independent Component Regression', 'mLibraries': ['fastICA'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Feature Extraction']}
+{'mMethod': 'J48', 'mLabel': 'C4.5-like Trees', 'mLibraries': ['RWeka'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection']}
+{'mMethod': 'JRip', 'mLabel': 'Rule-Based Classifier', 'mLibraries': ['RWeka'], 'mTypes': ['Classification'], 'mTags': ['Rule-Based Model', 'Implicit Feature Selection']}
+{'mMethod': 'kernelpls', 'mLabel': 'Partial Least Squares', 'mLibraries': ['pls'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Partial Least Squares', 'Feature Extraction', 'Kernel Method', 'Linear Classifier', 'Linear Regression']}
+{'mMethod': 'kknn', 'mLabel': 'k-Nearest Neighbors', 'mLibraries': ['kknn'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Prototype Models']}
+{'mMethod': 'knn', 'mLabel': 'k-Nearest Neighbors', 'mLibraries': [], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Prototype Models']}
+{'mMethod': 'krlsPoly', 'mLabel': 'olynomial Kernel Regularized Least Squares', 'mLibraries': ['KRLS'], 'mTypes': ['Regression'], 'mTags': ['Kernel Method', 'L2 Regularization', 'Polynomial Model']}
+{'mMethod': 'krlsRadial', 'mLabel': 'Radial Basis Function Kernel Regularized Least Squares', 'mLibraries': ['KRLS', 'kernlab'], 'mTypes': ['Regression'], 'mTags': ['Kernel Method', 'L2 Regularization', 'Radial Basis Function']}
+{'mMethod': 'lars2', 'mLabel': 'Least Angle Regression', 'mLibraries': ['lars'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Implicit Feature Selection', 'L1 Regularization']}
+{'mMethod': 'lars', 'mLabel': 'Least Angle Regression', 'mLibraries': ['lars'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Implicit Feature Selection', 'L1 Regularization']}
+{'mMethod': 'lasso', 'mLabel': 'The lasso', 'mLibraries': ['elasticnet'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Implicit Feature Selection', 'L1 Regularization']}
+{'mMethod': 'lda2', 'mLabel': 'Linear Discriminant Analysis', 'mLibraries': ['MASS'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Linear Classifier']}
+{'mMethod': 'lda', 'mLabel': 'Linear Discriminant Analysis', 'mLibraries': ['MASS'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Linear Classifier']}
+{'mMethod': 'leapBackward', 'mLabel': 'Linear Regression with Backwards Selection', 'mLibraries': ['leaps'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Feature Selection Wrapper']}
+{'mMethod': 'leapForward', 'mLabel': 'Linear Regression with Forward Selection', 'mLibraries': ['leaps'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Feature Selection Wrapper']}
+{'mMethod': 'leapSeq', 'mLabel': 'Linear Regression with Stepwise Selection', 'mLibraries': ['leaps'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Feature Selection Wrapper']}
+{'mMethod': 'Linda', 'mLabel': 'Robust Linear Discriminant Analysis', 'mLibraries': ['rrcov'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Linear Classifier', 'Robust Model']}
+{'mMethod': 'lm', 'mLabel': 'Linear Regression', 'mLibraries': [], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Accepts Case Weights']}
+{'mMethod': 'lmStepAIC', 'mLabel': 'Linear Regression with Stepwise Selection', 'mLibraries': ['MASS'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Feature Selection Wrapper', 'Accepts Case Weights']}
+{'mMethod': 'LMT', 'mLabel': 'Logistic Model Trees', 'mLibraries': ['RWeka'], 'mTypes': ['Classification'], 'mTags': ['Model Tree', 'Implicit Feature Selection', 'Logistic Regression', 'Linear Classifier']}
+{'mMethod': 'loclda', 'mLabel': 'Localized Linear Discriminant Analysis', 'mLibraries': ['klaR'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Linear Classifier']}
+{'mMethod': 'logicBag', 'mLabel': 'Bagged Logic Regression', 'mLibraries': ['logicFS'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Logic Regression', 'Linear Classifier', 'Linear Regression', 'Logistic Regression']}
+{'mMethod': 'LogitBoost', 'mLabel': 'Boosted Logistic Regression', 'mLibraries': ['caTools'], 'mTypes': ['Classification'], 'mTags': ['Ensemble Model', 'Boosting', 'Implicit Feature Selection']}
+{'mMethod': 'logreg', 'mLabel': 'Logic Regression', 'mLibraries': ['LogicReg'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Logic Regression', 'Linear Classifier', 'Linear Regression', 'Logistic Regression', 'Two Class Only', 'Binary Predictors Only']}
+{'mMethod': 'lssvmLinear', 'mLabel': 'Least Squares Support Vector Machine', 'mLibraries': ['kernlab'], 'mTypes': ['Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Linear Classifier']}
+{'mMethod': 'lssvmPoly', 'mLabel': 'Least Squares Support Vector Machine with Polynomial Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Polynomial Model']}
+{'mMethod': 'lssvmRadial', 'mLabel': 'Least Squares Support Vector Machine with Radial Basis Function Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Radial Basis Function']}
+{'mMethod': 'lvq', 'mLabel': 'Learning Vector Quantization', 'mLibraries': ['class'], 'mTypes': ['Classification'], 'mTags': ['Prototype Models']}
+{'mMethod': 'M5', 'mLabel': 'Model Tree', 'mLibraries': ['RWeka'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model', 'Tree-Based Model', 'Linear Regression', 'Implicit Feature Selection']}
+{'mMethod': 'M5Rules', 'mLabel': 'Model Rules', 'mLibraries': ['RWeka'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model', 'Linear Regression', 'Implicit Feature Selection']}
+{'mMethod': 'manb', 'mLabel': 'Model Averaged Naive Bayes Classifier', 'mLibraries': ['bnclassify'], 'mTypes': ['Classification'], 'mTags': ['Bayesian Model', 'Categorical Predictors Only']}
+{'mMethod': 'mda', 'mLabel': 'Mixture Discriminant Analysis', 'mLibraries': ['mda'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Mixture Model']}
+{'mMethod': 'Mlda', 'mLabel': 'Maximum Uncertainty Linear Discriminant Analysis', 'mLibraries': ['HiDimDA'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Linear Classifier']}
+{'mMethod': 'mlpKerasDecayCost', 'mLabel': 'Multilayer Perceptron Network with Weight Decay', 'mLibraries': ['keras'], 'mTypes': ['Classification'], 'mTags': ['Neural Network', 'L2 Regularization', 'Cost Sensitive Learning', '']}
+{'mMethod': 'mlpKerasDecay', 'mLabel': 'Multilayer Perceptron Network with Weight Decay', 'mLibraries': ['keras'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Neural Network', 'L2 Regularization']}
+{'mMethod': 'mlpKerasDropoutCost', 'mLabel': 'Multilayer Perceptron Network with Dropout', 'mLibraries': ['keras'], 'mTypes': ['Classification'], 'mTags': ['Neural Network', 'Cost Sensitive Learning', '']}
+{'mMethod': 'mlpKerasDropout', 'mLabel': 'Multilayer Perceptron Network with Dropout', 'mLibraries': ['keras'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Neural Network']}
+{'mMethod': 'mlpML', 'mLabel': 'Multi-Layer Perceptron, with multiple layers', 'mLibraries': ['RSNNS'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Neural Network']}
+{'mMethod': 'mlp', 'mLabel': 'Multi-Layer Perceptron', 'mLibraries': ['RSNNS'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Neural Network']}
+{'mMethod': 'mlpSGD', 'mLabel': 'Multilayer Perceptron Network by Stochastic Gradient Descent', 'mLibraries': ['FCNN4R', 'plyr'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Neural Network', 'L2 Regularization']}
+{'mMethod': 'mlpWeightDecayML', 'mLabel': 'Multi-Layer Perceptron, multiple layers', 'mLibraries': ['RSNNS'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Neural Network', 'L2 Regularization']}
+{'mMethod': 'mlpWeightDecay', 'mLabel': 'Multi-Layer Perceptron', 'mLibraries': ['RSNNS'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Neural Network', 'L2 Regularization']}
+{'mMethod': 'monmlp', 'mLabel': 'Monotone Multi-Layer Perceptron Neural Network', 'mLibraries': ['monmlp'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Neural Network']}
+{'mMethod': 'msaenet', 'mLabel': 'Multi-Step Adaptive MCP-Net', 'mLibraries': ['msaenet'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Implicit Feature Selection', '']}
+{'mMethod': 'multinom', 'mLabel': 'Penalized Multinomial Regression', 'mLibraries': ['nnet'], 'mTypes': ['Classification'], 'mTags': ['Neural Network', 'L2 Regularization', '']}
+{'mMethod': 'mxnetAdam', 'mLabel': 'Neural Network,', 'mLibraries': ['mxnet"'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Neural Network']}
+{'mMethod': 'mxnet', 'mLabel': 'Neural Network', 'mLibraries': ['mxnet'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Neural Network']}
+{'mMethod': 'naive_bayes', 'mLabel': 'Naive Bayes', 'mLibraries': ['naivebayes'], 'mTypes': ['Classification'], 'mTags': ['Bayesian Model']}
+{'mMethod': 'nbDiscrete', 'mLabel': 'Naive Bayes Classifier', 'mLibraries': ['bnclassify'], 'mTypes': ['Classification'], 'mTags': ['Bayesian Model', 'Categorical Predictors Only']}
+{'mMethod': 'nb', 'mLabel': 'Naive Bayes', 'mLibraries': ['klaR'], 'mTypes': ['Classification'], 'mTags': ['Bayesian Model']}
+{'mMethod': 'nbSearch', 'mLabel': ' Semi-Naive Structure Learner Wrappe', 'mLibraries': ['bnclassify'], 'mTypes': ['Classification'], 'mTags': ['Bayesian Model', 'Categorical Predictors Only']}
+{'mMethod': 'neuralnet', 'mLabel': 'Neural Network', 'mLibraries': ['neuralnet'], 'mTypes': ['Regression'], 'mTags': ['Neural Network']}
+{'mMethod': 'nnet', 'mLabel': 'Neural Network', 'mLibraries': ['nnet'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Neural Network', 'L2 Regularization', 'Accepts Case Weights']}
+{'mMethod': 'nnls', 'mLabel': 'Non-Negative Least Squares', 'mLibraries': ['nnls'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression']}
+{'mMethod': 'nodeHarvest', 'mLabel': 'Tree-Based Ensembles', 'mLibraries': ['nodeHarvest'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', 'Ensemble Model', 'Two Class Only']}
+{'mMethod': 'null', 'mLabel': 'Non-Informative Model', 'mLibraries': [], 'mTypes': ['Classification', 'Regression'], 'mTags': ['UL']}
+{'mMethod': 'OneR', 'mLabel': 'Single Rule Classification', 'mLibraries': ['RWeka'], 'mTypes': ['Classification'], 'mTags': ['Rule-Based Model', 'Implicit Feature Selection']}
+{'mMethod': 'ordinalNet', 'mLabel': 'Penalized Ordinal Regression', 'mLibraries': ['ordinalNet', 'plyr'], 'mTypes': ['Classification'], 'mTags': ['Generalized Linear Model', 'Implicit Feature Selection', '']}
+{'mMethod': 'ORFlog', 'mLabel': 'Oblique Random Forest', 'mLibraries': ['obliqueRF'], 'mTypes': ['Classification'], 'mTags': ['Random Forest', 'Oblique Tree', 'Logistic Regression', '']}
+{'mMethod': 'ORFpls', 'mLabel': 'Oblique Random Forest', 'mLibraries': ['obliqueRF'], 'mTypes': ['Classification'], 'mTags': ['Random Forest', 'Oblique Tree', 'Partial Least Squares', '']}
+{'mMethod': 'ORFridge', 'mLabel': 'Oblique Random Forest', 'mLibraries': ['obliqueRF'], 'mTypes': ['Classification'], 'mTags': ['Random Forest', 'Oblique Tree', 'Ridge Regression', '']}
+{'mMethod': 'ORFsvm', 'mLabel': 'Oblique Random Forest', 'mLibraries': ['obliqueRF'], 'mTypes': ['Classification'], 'mTags': ['Random Forest', 'Oblique Tree', 'Kernel Method', '']}
+{'mMethod': 'ownn', 'mLabel': 'Optimal Weighted Nearest Neighbor Classifier', 'mLibraries': ['snn'], 'mTypes': ['Classification'], 'mTags': ['Prototype Models']}
+{'mMethod': 'pam', 'mLabel': 'Nearest Shrunken Centroids', 'mLibraries': ['pamr'], 'mTypes': ['Classification'], 'mTags': ['Prototype Models', 'Implicit Feature Selection', 'Linear Classifier']}
+{'mMethod': 'parRF', 'mLabel': 'Parallel Random Forest', 'mLibraries': ['e1071', 'randomForest', 'foreach', 'import'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Random Forest', 'Ensemble Model', 'Bagging', 'Implicit Feature Selection']}
+{'mMethod': 'partDSA', 'mLabel': 'partDSA', 'mLibraries': ['partDSA'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['']}
+{'mMethod': 'PART', 'mLabel': 'Rule-Based Classifier', 'mLibraries': ['RWeka'], 'mTypes': ['Classification'], 'mTags': ['Rule-Based Model', 'Implicit Feature Selection']}
+{'mMethod': 'pcaNNet', 'mLabel': 'Neural Networks with Feature Extraction', 'mLibraries': ['nnet'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Neural Network', 'Feature Extraction', 'L2 Regularization', 'Accepts Case Weights']}
+{'mMethod': 'pcr', 'mLabel': 'Principal Component Analysis', 'mLibraries': ['pls'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Feature Extraction']}
+{'mMethod': 'pda2', 'mLabel': 'Penalized Discriminant Analysis', 'mLibraries': ['mda'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Polynomial Model', 'Accepts Case Weights']}
+{'mMethod': 'pda', 'mLabel': 'Penalized Discriminant Analysis', 'mLibraries': ['mda'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Polynomial Model', 'Accepts Case Weights']}
+{'mMethod': 'PenalizedLDA', 'mLabel': 'Penalized Linear Discriminant Analysis', 'mLibraries': ['penalizedLDA', 'plyr'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'L1 Regularization', '']}
+{'mMethod': 'penalized', 'mLabel': 'Penalized Linear Regression', 'mLibraries': ['penalized'], 'mTypes': ['Regression'], 'mTags': ['Implicit Feature Selection', '']}
+{'mMethod': 'plr', 'mLabel': 'Penalized Logistic Regression', 'mLibraries': ['stepPlr'], 'mTypes': ['Classification'], 'mTags': ['L2 Regularization', 'Logistic Regression', 'Linear Classifier']}
+{'mMethod': 'pls', 'mLabel': 'Partial Least Squares', 'mLibraries': ['pls'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Partial Least Squares', 'Feature Extraction', 'Linear Classifier', 'Linear Regression']}
+{'mMethod': 'plsRglm', 'mLabel': 'Partial Least Squares Generalized Linear Models ', 'mLibraries': ['plsRglm'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Generalized Linear Models', '']}
+{'mMethod': 'polr', 'mLabel': ' Ordered Logistic or Probit Regressio', 'mLibraries': ['MASS'], 'mTypes': ['Classification'], 'mTags': ['Logistic Regression', 'Linear Classifier', 'Accepts Case Weights', 'Ordinal Outcomes']}
+{'mMethod': 'ppr', 'mLabel': 'Projection Pursuit Regression', 'mLibraries': [], 'mTypes': ['Regression'], 'mTags': ['Feature Extraction', 'Accepts Case Weights']}
+{'mMethod': 'PRIM', 'mLabel': 'Patient Rule Induction Method', 'mLibraries': ['supervisedPRIM'], 'mTypes': ['Classification'], 'mTags': ['Rule-Based Model', 'Patient Rule Induction Method']}
+{'mMethod': 'protoclass', 'mLabel': 'Greedy Prototype Selection', 'mLibraries': ['proxy', 'protoclass'], 'mTypes': ['Classification'], 'mTags': ['Prototype Models']}
+{'mMethod': 'QdaCov', 'mLabel': 'Robust Quadratic Discriminant Analysis', 'mLibraries': ['rrcov'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Polynomial Model']}
+{'mMethod': 'qda', 'mLabel': 'Quadratic Discriminant Analysis', 'mLibraries': ['MASS'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Polynomial Model']}
+{'mMethod': 'qrf', 'mLabel': 'Quantile Random Forest', 'mLibraries': ['quantregForest'], 'mTypes': ['Regression'], 'mTags': ['Random Forest', 'Ensemble Model', 'Bagging', '']}
+{'mMethod': 'qrnn', 'mLabel': 'Quantile Regression Neural Network', 'mLibraries': ['qrnn'], 'mTypes': ['Regression'], 'mTags': ['Neural Network', 'L2 Regularization', 'Quantile Regression', 'Bagging']}
+{'mMethod': 'randomGLM', 'mLabel': 'Ensembles of Generalized Linear Models', 'mLibraries': ['randomGLM'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Generalized Linear Model', 'Linear Classifier']}
+{'mMethod': 'ranger', 'mLabel': 'Random Forest', 'mLibraries': ['e1071', 'ranger', 'dplyr'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Random Forest', 'Ensemble Model', 'Bagging']}
+{'mMethod': 'rbfDDA', 'mLabel': 'Radial Basis Function Network', 'mLibraries': ['RSNNS'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Neural Network', 'L2 Regularization', 'Radial Basis Function']}
+{'mMethod': 'rbf', 'mLabel': 'Radial Basis Function Network', 'mLibraries': ['RSNNS'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Neural Network', 'L2 Regularization', 'Radial Basis Function']}
+{'mMethod': 'Rborist', 'mLabel': 'Random Forest', 'mLibraries': ['Rborist'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Random Forest', 'Ensemble Model', 'Bagging', 'Implicit Feature Selection']}
+{'mMethod': 'rda', 'mLabel': 'Regularized Discriminant Analysis', 'mLibraries': ['klaR'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Polynomial Model', 'Regularization']}
+{'mMethod': 'regLogistic', 'mLabel': 'Regularized Logistic Regression', 'mLibraries': ['LiblineaR'], 'mTypes': ['Classification'], 'mTags': ['Linear Classifier', 'Robust Methods', 'L1 Regularization', 'L2 Regularization']}
+{'mMethod': 'relaxo', 'mLabel': 'Relaxed Lasso', 'mLibraries': ['relaxo', 'plyr'], 'mTypes': ['Regression'], 'mTags': ['Implicit Feature Selection', '']}
+{'mMethod': 'rFerns', 'mLabel': 'Random Ferns', 'mLibraries': ['rFerns'], 'mTypes': ['Classification'], 'mTags': ['Random Forest', 'Ensemble Model', 'Bagging', 'Implicit Feature Selection']}
+{'mMethod': 'RFlda', 'mLabel': 'Factor-Based Linear Discriminant Analysis', 'mLibraries': ['HiDimDA'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Linear Classifier']}
+{'mMethod': 'rf', 'mLabel': 'Random Forest', 'mLibraries': ['randomForest'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Random Forest', 'Ensemble Model', 'Bagging', 'Implicit Feature Selection']}
+{'mMethod': 'rfRules', 'mLabel': 'Random Forest Rule-Based Model', 'mLibraries': ['randomForest', 'inTrees', 'plyr'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Random Forest', 'Ensemble Model', 'Bagging', '']}
+{'mMethod': 'ridge', 'mLabel': 'Ridge Regression', 'mLibraries': ['elasticnet'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'L2 Regularization']}
+{'mMethod': 'rlda', 'mLabel': 'Regularized Linear Discriminant Analysis', 'mLibraries': ['sparsediscrim'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Polynomial Model', 'Regularization']}
+{'mMethod': 'rlm', 'mLabel': 'Robust Linear Model', 'mLibraries': ['MASS'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Robust Model', 'Accepts Case Weights']}
+{'mMethod': 'rmda', 'mLabel': 'Robust Mixture Discriminant Analysis', 'mLibraries': ['robustDA'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Mixture Model', 'Robust Methods']}
+{'mMethod': 'rocc', 'mLabel': 'ROC-Based Classifier', 'mLibraries': ['rocc'], 'mTypes': ['Classification'], 'mTags': ['ROC Curves']}
+{'mMethod': 'rotationForestCp', 'mLabel': 'Rotation Forest', 'mLibraries': ['rpart', 'plyr', 'rotationForest'], 'mTypes': ['Classification'], 'mTags': ['Ensemble Model', 'Implicit Feature Selection', '']}
+{'mMethod': 'rotationForest', 'mLabel': 'Rotation Forest', 'mLibraries': ['rotationForest'], 'mTypes': ['Classification'], 'mTags': ['Ensemble Model', 'Implicit Feature Selection', '']}
+{'mMethod': 'rpart1SE', 'mLabel': 'CART', 'mLibraries': ['rpart'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', 'Handle Missing Predictor Data', 'Accepts Case Weights']}
+{'mMethod': 'rpart2', 'mLabel': 'CART', 'mLibraries': ['rpart'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', '']}
+{'mMethod': 'rpartCost', 'mLabel': 'Cost-Sensitive CART', 'mLibraries': ['rpart', 'plyr'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', 'Cost Sensitive Learning', '']}
+{'mMethod': 'rpart', 'mLabel': 'CART', 'mLibraries': ['rpart'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', 'Handle Missing Predictor Data', 'Accepts Case Weights']}
+{'mMethod': 'rpartScore', 'mLabel': 'CART or Ordinal Responses', 'mLibraries': ['rpartScore', 'plyr'], 'mTypes': ['Classification'], 'mTags': ['Tree-Based Model', 'Implicit Feature Selection', 'Handle Missing Predictor Data', '']}
+{'mMethod': 'rqlasso', 'mLabel': 'Quantile Regression with LASSO penalty', 'mLibraries': ['rqPen'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Quantile Regression', 'Implicit Feature Selection', 'L1 Regularization']}
+{'mMethod': 'rqnc', 'mLabel': 'Non-Convex Penalized Quantile Regression', 'mLibraries': ['rqPen'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Quantile Regression', 'Implicit Feature Selection', 'L1 Regularization']}
+{'mMethod': 'RRFglobal', 'mLabel': 'Regularized Random Forest', 'mLibraries': ['RRF'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Random Forest', 'Ensemble Model', 'Bagging', 'Implicit Feature Selection', 'Regularization']}
+{'mMethod': 'RRF', 'mLabel': 'Regularized Random Forest', 'mLibraries': ['randomForest', 'RRF'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Random Forest', 'Ensemble Model', '']}
+{'mMethod': 'rrlda', 'mLabel': 'Robust Regularized Linear Discriminant Analysis', 'mLibraries': ['rrlda'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Robust Model', 'Regularization', 'Linear Classifier']}
+{'mMethod': 'RSimca', 'mLabel': 'Robust SIMCA', 'mLibraries': ['rrcovHD'], 'mTypes': ['Classification'], 'mTags': ['Robust Model', 'Linear Classifier']}
+{'mMethod': 'rvmLinear', 'mLabel': 'Relevance Vector Machines with Linear Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression'], 'mTags': ['Kernel Method', 'Relevance Vector Machines', 'Linear Regression']}
+{'mMethod': 'rvmPoly', 'mLabel': 'Relevance Vector Machines with Polynomial Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression'], 'mTags': ['Kernel Method', 'Relevance Vector Machines', 'Polynomial Model']}
+{'mMethod': 'rvmRadial', 'mLabel': 'Relevance Vector Machines with Radial Basis Function Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression'], 'mTags': ['Kernel Method', 'Relevance Vector Machines', 'Radial Basis Function']}
+{'mMethod': 'SBC', 'mLabel': 'Subtractive Clustering and Fuzzy c-Means Rules', 'mLibraries': ['frbs'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'sda', 'mLabel': 'Shrinkage Discriminant Analysis', 'mLibraries': ['sda'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Regularization', 'Linear Classifier']}
+{'mMethod': 'sdwd', 'mLabel': 'Sparse Distance Weighted Discrimination', 'mLibraries': ['sdwd'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis Models', 'Implicit Feature Selection', '']}
+{'mMethod': 'simpls', 'mLabel': 'Partial Least Squares', 'mLibraries': ['pls'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Partial Least Squares', 'Feature Extraction', 'Linear Classifier', 'Linear Regression']}
+{'mMethod': 'SLAVE', 'mLabel': 'Fuzzy Rules Using the Structural Learning Algorithm on Vague Environment', 'mLibraries': ['frbs'], 'mTypes': ['Classification'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'slda', 'mLabel': 'Stabilized Linear Discriminant Analysis', 'mLibraries': ['ipred'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Linear Classifier']}
+{'mMethod': 'smda', 'mLabel': 'Sparse Mixture Discriminant Analysis', 'mLibraries': ['sparseLDA'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'L1 Regularization', '']}
+{'mMethod': 'snn', 'mLabel': 'Stabilized Nearest Neighbor Classifier', 'mLibraries': ['snn'], 'mTypes': ['Classification'], 'mTags': ['Prototype Models']}
+{'mMethod': 'sparseLDA', 'mLabel': 'Sparse Linear Discriminant Analysis', 'mLibraries': ['sparseLDA'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'L1 Regularization', '']}
+{'mMethod': 'spikeslab', 'mLabel': 'Spike and Slab Regression', 'mLibraries': ['spikeslab', 'plyr'], 'mTypes': ['Regression'], 'mTags': ['Linear Regression', 'Bayesian Model', '']}
+{'mMethod': 'spls', 'mLabel': 'Sparse Partial Least Squares', 'mLibraries': ['spls'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Partial Least Squares', 'Feature Extraction', 'Linear Classifier', 'Linear Regression']}
+{'mMethod': 'stepLDA', 'mLabel': 'Linear Discriminant Analysis with Stepwise Feature Selection', 'mLibraries': ['klaR', 'MASS'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Feature Selection Wrapper', 'Linear Classifier']}
+{'mMethod': 'stepQDA', 'mLabel': 'Quadratic Discriminant Analysis with Stepwise Feature Selection', 'mLibraries': ['klaR', 'MASS'], 'mTypes': ['Classification'], 'mTags': ['Discriminant Analysis', 'Feature Selection Wrapper', 'Polynomial Model']}
+{'mMethod': 'superpc', 'mLabel': 'Supervised Principal Component Analysis', 'mLibraries': ['superpc'], 'mTypes': ['Regression'], 'mTags': ['Feature Extraction', 'Linear Regression']}
+{'mMethod': 'svmBoundrangeString', 'mLabel': 'Support Vector Machines with Boundrange String Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'String Kernel']}
+{'mMethod': 'svmExpoString', 'mLabel': 'Support Vector Machines with Exponential String Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'String Kernel']}
+{'mMethod': 'svmLinear2', 'mLabel': 'Support Vector Machines with Linear Kernel', 'mLibraries': ['e1071'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Linear Regression', 'Linear Classifier']}
+{'mMethod': 'svmLinear3', 'mLabel': 'L2 Regularized Support Vector Machine (dual) with Linear Kernel', 'mLibraries': ['LiblineaR'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Linear Regression', 'Linear Classifier']}
+{'mMethod': 'svmLinear', 'mLabel': 'Support Vector Machines with Linear Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Linear Regression', 'Linear Classifier']}
+{'mMethod': 'svmLinearWeights2', 'mLabel': 'L2 Regularized Linear Support Vector Machines with Class Weights', 'mLibraries': ['LiblineaR'], 'mTypes': ['Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Linear Classifier']}
+{'mMethod': 'svmLinearWeights', 'mLabel': 'Linear Support Vector Machines with Class Weights', 'mLibraries': ['e1071'], 'mTypes': ['Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Linear Classifier']}
+{'mMethod': 'svmPoly', 'mLabel': 'Support Vector Machines with Polynomial Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Polynomial Model']}
+{'mMethod': 'svmRadialCost', 'mLabel': 'Support Vector Machines with Radial Basis Function Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Radial Basis Function']}
+{'mMethod': 'svmRadial', 'mLabel': 'Support Vector Machines with Radial Basis Function Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Radial Basis Function']}
+{'mMethod': 'svmRadialSigma', 'mLabel': 'Support Vector Machines with Radial Basis Function Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Radial Basis Function']}
+{'mMethod': 'svmRadialWeights', 'mLabel': 'Support Vector Machines with Class Weights', 'mLibraries': ['kernlab'], 'mTypes': ['Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'Radial Basis Function', 'Cost Sensitive Learning', 'Two Class Only']}
+{'mMethod': 'svmSpectrumString', 'mLabel': 'Support Vector Machines with Spectrum String Kernel', 'mLibraries': ['kernlab'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Kernel Method', 'Support Vector Machines', 'String Kernel']}
+{'mMethod': 'tan', 'mLabel': 'Tree Augmented Naive Bayes Classifier', 'mLibraries': ['bnclassify'], 'mTypes': ['Classification'], 'mTags': ['Bayesian Model', 'Categorical Predictors Only']}
+{'mMethod': 'tanSearch', 'mLabel': ' Tree Augmented Naive Bayes Classifier Structure Learner Wrappe', 'mLibraries': ['bnclassify'], 'mTypes': ['Classification'], 'mTags': ['Bayesian Model', 'Categorical Predictors Only']}
+{'mMethod': 'treebag', 'mLabel': 'Bagged CART', 'mLibraries': ['ipred', 'plyr', 'e1071'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Ensemble Model', 'Bagging', 'Accepts Case Weights', '']}
+{'mMethod': 'vbmpRadial', 'mLabel': 'Variational Bayesian Multinomial Probit Regression', 'mLibraries': ['vbmp'], 'mTypes': ['Classification'], 'mTags': ['Gaussian Process', 'Bayesian Model', 'Radial Basis Function']}
+{'mMethod': 'vglmAdjCat', 'mLabel': ' Adjacent Categories Probability Model for Ordinal Dat', 'mLibraries': ['VGAM'], 'mTypes': ['Classification'], 'mTags': ['Logistic Regression', 'Linear Classifier', 'Accepts Case Weights', 'Ordinal Outcomes']}
+{'mMethod': 'vglmContRatio', 'mLabel': ' Continuation Ratio Model for Ordinal Dat', 'mLibraries': ['VGAM'], 'mTypes': ['Classification'], 'mTags': ['Logistic Regression', 'Linear Classifier', 'Accepts Case Weights', 'Ordinal Outcomes']}
+{'mMethod': 'vglmCumulative', 'mLabel': ' Cumulative Probability Model for Ordinal Dat', 'mLibraries': ['VGAM'], 'mTypes': ['Classification'], 'mTags': ['Logistic Regression', 'Linear Classifier', 'Accepts Case Weights', 'Ordinal Outcomes']}
+{'mMethod': 'widekernelpls', 'mLabel': 'Partial Least Squares', 'mLibraries': ['pls'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Partial Least Squares', 'Feature Extraction', 'Linear Classifier', 'Linear Regression']}
+{'mMethod': 'WM', 'mLabel': 'Wang and Mendel Fuzzy Rules', 'mLibraries': ['frbs'], 'mTypes': ['Regression'], 'mTags': ['Rule-Based Model']}
+{'mMethod': 'wsrf', 'mLabel': 'Weighted Subspace Random Forest', 'mLibraries': ['wsrf'], 'mTypes': ['Classification'], 'mTags': ['Random Forest', 'Ensemble Model', 'Bagging', 'Implicit Feature Selection']}
+{'mMethod': 'xgbDART', 'mLabel': 'eXtreme Gradient Boosting', 'mLibraries': ['xgboost', 'plyr'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Boosting', 'Ensemble Model', 'Implicit Feature Selection', 'Accepts Case Weights']}
+{'mMethod': 'xgbLinear', 'mLabel': 'eXtreme Gradient Boosting', 'mLibraries': ['xgboost'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Linear Classifier Models']}
+{'mMethod': 'xgbTree', 'mLabel': 'eXtreme Gradient Boosting', 'mLibraries': ['xgboost', 'plyr'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Boosting', 'Ensemble Model', 'Implicit Feature Selection', 'Accepts Case Weights']}
+{'mMethod': 'xyf', 'mLabel': 'Self-Organizing Maps', 'mLibraries': ['kohonen'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Self-Organising Maps']}
+        Method         ...          tag_Ordinal Outcomes
+0       AdaBag         ...                           NaN
+1  AdaBoost.M1         ...                           NaN
+2     adaboost         ...                           NaN
+3          ada         ...                           NaN
+4        amdai         ...                           NaN
+
+[5 rows x 171 columns]
+       lib_mboost          ...           tag_Ordinal Outcomes
+count         3.0          ...                            4.0
+mean          1.0          ...                            1.0
+std           0.0          ...                            0.0
+min           1.0          ...                            1.0
+25%           1.0          ...                            1.0
+50%           1.0          ...                            1.0
+75%           1.0          ...                            1.0
+max           1.0          ...                            1.0
+
+[8 rows x 169 columns]
+COLUMN_INFO 'Method' ['AdaBag', 'AdaBoost.M1', 'adaboost', 'ada', 'amdai', 'ANFIS', 'avNNet', 'awnb', 'awtan', 'bagEarthGCV', 'bagEarth', 'bagFDAGCV', 'bagFDA', 'bag', 'bam', 'bartMachine', 'bayesglm', 'binda', 'blackboost', 'blassoAveraged', 'blasso', 'bridge', 'brnn', 'BstLm', 'bstSm', 'bstTree', 'C5.0Cost', 'C5.0', 'C5.0Rules', 'C5.0Tree', 'cforest', 'chaid', 'CSimca', 'ctree2', 'ctree', 'cubist', 'dda', 'deepboost', 'DENFIS', 'dnn', 'dwdLinear', 'dwdPoly', 'dwdRadial', 'earth', 'elm', 'enet', 'evtree', 'extraTrees', 'fda', 'FH.GBML', 'FIR.DM', 'foba', 'FRBCS.CHI', 'FRBCS.W', 'FS.HGD', 'gamboost', 'gamLoess', 'gam', 'gamSpline', 'gaussprLinear', 'gaussprPoly', 'gaussprRadial', 'gbm_h2o', 'gbm', 'gcvEarth', 'GFS.FR.MOGUL', 'GFS.LTS', 'GFS.THRIFT', 'glmboost', 'glm.nb', 'glmnet_h2o', 'glmnet', 'glm', 'glmStepAIC', 'gpls', 'hda', 'hdda', 'hdrda', 'HYFIS', 'icr', 'J48', 'JRip', 'kernelpls', 'kknn', 'knn', 'krlsPoly', 'krlsRadial', 'lars2', 'lars', 'lasso', 'lda2', 'lda', 'leapBackward', 'leapForward', 'leapSeq', 'Linda', 'lm', 'lmStepAIC', 'LMT', 'loclda', 'logicBag', 'LogitBoost', 'logreg', 'lssvmLinear', 'lssvmPoly', 'lssvmRadial', 'lvq', 'M5', 'M5Rules', 'manb', 'mda', 'Mlda', 'mlpKerasDecayCost', 'mlpKerasDecay', 'mlpKerasDropoutCost', 'mlpKerasDropout', 'mlpML', 'mlp', 'mlpSGD', 'mlpWeightDecayML', 'mlpWeightDecay', 'monmlp', 'msaenet', 'multinom', 'mxnetAdam', 'mxnet', 'naive_bayes', 'nbDiscrete', 'nb', 'nbSearch', 'neuralnet', 'nnet', 'nnls', 'nodeHarvest', 'null', 'OneR', 'ordinalNet', 'ORFlog', 'ORFpls', 'ORFridge', 'ORFsvm', 'ownn', 'pam', 'parRF', 'partDSA', 'PART', 'pcaNNet', 'pcr', 'pda2', 'pda', 'PenalizedLDA', 'penalized', 'plr', 'pls', 'plsRglm', 'polr', 'ppr', 'PRIM', 'protoclass', 'QdaCov', 'qda', 'qrf', 'qrnn', 'randomGLM', 'ranger', 'rbfDDA', 'rbf', 'Rborist', 'rda', 'regLogistic', 'relaxo', 'rFerns', 'RFlda', 'rf', 'rfRules', 'ridge', 'rlda', 'rlm', 'rmda', 'rocc', 'rotationForestCp', 'rotationForest', 'rpart1SE', 'rpart2', 'rpartCost', 'rpart', 'rpartScore', 'rqlasso', 'rqnc', 'RRFglobal', 'RRF', 'rrlda', 'RSimca', 'rvmLinear', 'rvmPoly', 'rvmRadial', 'SBC', 'sda', 'sdwd', 'simpls', 'SLAVE', 'slda', 'smda', 'snn', 'sparseLDA', 'spikeslab', 'spls', 'stepLDA', 'stepQDA', 'superpc', 'svmBoundrangeString', 'svmExpoString', 'svmLinear2', 'svmLinear3', 'svmLinear', 'svmLinearWeights2', 'svmLinearWeights', 'svmPoly', 'svmRadialCost', 'svmRadial', 'svmRadialSigma', 'svmRadialWeights', 'svmSpectrumString', 'tan', 'tanSearch', 'treebag', 'vbmpRadial', 'vglmAdjCat', 'vglmContRatio', 'vglmCumulative', 'widekernelpls', 'WM', 'wsrf', 'xgbDART', 'xgbLinear', 'xgbTree', 'xyf']
+COLUMN_INFO 'Label' ['Bagged AdaBoost', 'AdaBoost.M1', 'AdaBoost Classification Trees', 'Boosted Classification Trees', 'Adaptive Mixture Discriminant Analysis', 'Adaptive-Network-Based Fuzzy Inference System', 'Model Averaged Neural Network,', 'Naive Bayes Classifier with Attribute Weighting', ' Tree Augmented Naive Bayes Classifier with Attribute Weightin', 'Bagged MARS using gCV Pruning,', 'Bagged MARS,', 'Bagged FDA using gCV Pruning,', 'Bagged Flexible Discriminant Analysis,', 'Bagged Model', 'Generalized Additive Model using Splines', 'Bayesian Additive Regression Trees', 'Bayesian Generalized Linear Model', 'Binary Discriminant Analysis', 'Boosted Tree,', 'Bayesian Ridge Regression (Model Averaged)', 'The Bayesian lasso', 'Bayesian Ridge Regression', 'Bayesian Regularized Neural Networks', 'Boosted Linear Model,', 'Boosted Smoothing Spline,', 'Cost-Sensitive C5.0', 'C5.0,', 'Single C5.0 Ruleset,', 'Single C5.0 Tree,', 'Conditional Inference Random Forest', 'CHi-squared Automated Interaction Detection', 'SIMCA', 'Conditional Inference Tree', 'Cubist', 'Diagonal Discriminant Analysis', 'DeepBoost', 'Dynamic Evolving Neural-Fuzzy Inference System ', 'Stacked AutoEncoder Deep Neural Network', 'Linear Distance Weighted Discrimination', 'Distance Weighted Discrimination with Polynomial Kernel', 'Distance Weighted Discrimination with Radial Basis Function Kernel', 'Multivariate Adaptive Regression Spline', 'Extreme Learning Machine', 'Elasticnet', 'Tree Models from Genetic Algorithms', 'Random Forest by Randomization', 'Flexible Discriminant Analysis', 'Fuzzy Rules Using Genetic Cooperative-Competitive Learning and Pittsburgh', 'Fuzzy Inference Rules by Descent Method', 'Ridge Regression with Variable Selection', "Fuzzy Rules Using Chi's Method", 'Fuzzy Rules with Weight Factor', 'Simplified TSK Fuzzy Rules', 'Boosted Generalized Additive Model', 'Generalized Additive Model using LOESS', 'Gaussian Process', 'Gaussian Process with Polynomial Kernel', 'Gaussian Process with Radial Basis Function Kernel', 'Gradient Boosting Machines', 'Stochastic Gradient Boosting', 'Multivariate Adaptive Regression Splines', 'Fuzzy Rules via MOGUL', 'Genetic Lateral Tuning and Rule Selection of Linguistic Fuzzy Systems', 'Fuzzy Rules via Thrift', 'Boosted Generalized Linear Model', 'Negative Binomial Generalized Linear Model', 'glmnet', 'Generalized Linear Model', 'Generalized Linear Model with Stepwise Feature Selection', 'Generalized Partial Least Squares', 'Heteroscedastic Discriminant Analysis', 'High Dimensional Discriminant Analysis', 'High-Dimensional Regularized Discriminant Analysis', 'Hybrid Neural Fuzzy Inference System', 'Independent Component Regression', 'C4.5-like Trees', 'Rule-Based Classifier', 'Partial Least Squares', 'k-Nearest Neighbors', 'olynomial Kernel Regularized Least Squares', 'Radial Basis Function Kernel Regularized Least Squares', 'Least Angle Regression', 'The lasso', 'Linear Discriminant Analysis', 'Linear Regression with Backwards Selection', 'Linear Regression with Forward Selection', 'Linear Regression with Stepwise Selection', 'Robust Linear Discriminant Analysis', 'Linear Regression', 'Logistic Model Trees', 'Localized Linear Discriminant Analysis', 'Bagged Logic Regression', 'Boosted Logistic Regression', 'Logic Regression', 'Least Squares Support Vector Machine', 'Least Squares Support Vector Machine with Polynomial Kernel', 'Least Squares Support Vector Machine with Radial Basis Function Kernel', 'Learning Vector Quantization', 'Model Tree', 'Model Rules', 'Model Averaged Naive Bayes Classifier', 'Mixture Discriminant Analysis', 'Maximum Uncertainty Linear Discriminant Analysis', 'Multilayer Perceptron Network with Weight Decay', 'Multilayer Perceptron Network with Dropout', 'Multi-Layer Perceptron, with multiple layers', 'Multi-Layer Perceptron', 'Multilayer Perceptron Network by Stochastic Gradient Descent', 'Multi-Layer Perceptron, multiple layers', 'Monotone Multi-Layer Perceptron Neural Network', 'Multi-Step Adaptive MCP-Net', 'Penalized Multinomial Regression', 'Neural Network,', 'Neural Network', 'Naive Bayes', 'Naive Bayes Classifier', ' Semi-Naive Structure Learner Wrappe', 'Non-Negative Least Squares', 'Tree-Based Ensembles', 'Non-Informative Model', 'Single Rule Classification', 'Penalized Ordinal Regression', 'Oblique Random Forest', 'Optimal Weighted Nearest Neighbor Classifier', 'Nearest Shrunken Centroids', 'Parallel Random Forest', 'partDSA', 'Neural Networks with Feature Extraction', 'Principal Component Analysis', 'Penalized Discriminant Analysis', 'Penalized Linear Discriminant Analysis', 'Penalized Linear Regression', 'Penalized Logistic Regression', 'Partial Least Squares Generalized Linear Models ', ' Ordered Logistic or Probit Regressio', 'Projection Pursuit Regression', 'Patient Rule Induction Method', 'Greedy Prototype Selection', 'Robust Quadratic Discriminant Analysis', 'Quadratic Discriminant Analysis', 'Quantile Random Forest', 'Quantile Regression Neural Network', 'Ensembles of Generalized Linear Models', 'Random Forest', 'Radial Basis Function Network', 'Regularized Discriminant Analysis', 'Regularized Logistic Regression', 'Relaxed Lasso', 'Random Ferns', 'Factor-Based Linear Discriminant Analysis', 'Random Forest Rule-Based Model', 'Ridge Regression', 'Regularized Linear Discriminant Analysis', 'Robust Linear Model', 'Robust Mixture Discriminant Analysis', 'ROC-Based Classifier', 'Rotation Forest', 'CART', 'Cost-Sensitive CART', 'CART or Ordinal Responses', 'Quantile Regression with LASSO penalty', 'Non-Convex Penalized Quantile Regression', 'Regularized Random Forest', 'Robust Regularized Linear Discriminant Analysis', 'Robust SIMCA', 'Relevance Vector Machines with Linear Kernel', 'Relevance Vector Machines with Polynomial Kernel', 'Relevance Vector Machines with Radial Basis Function Kernel', 'Subtractive Clustering and Fuzzy c-Means Rules', 'Shrinkage Discriminant Analysis', 'Sparse Distance Weighted Discrimination', 'Fuzzy Rules Using the Structural Learning Algorithm on Vague Environment', 'Stabilized Linear Discriminant Analysis', 'Sparse Mixture Discriminant Analysis', 'Stabilized Nearest Neighbor Classifier', 'Sparse Linear Discriminant Analysis', 'Spike and Slab Regression', 'Sparse Partial Least Squares', 'Linear Discriminant Analysis with Stepwise Feature Selection', 'Quadratic Discriminant Analysis with Stepwise Feature Selection', 'Supervised Principal Component Analysis', 'Support Vector Machines with Boundrange String Kernel', 'Support Vector Machines with Exponential String Kernel', 'Support Vector Machines with Linear Kernel', 'L2 Regularized Support Vector Machine (dual) with Linear Kernel', 'L2 Regularized Linear Support Vector Machines with Class Weights', 'Linear Support Vector Machines with Class Weights', 'Support Vector Machines with Polynomial Kernel', 'Support Vector Machines with Radial Basis Function Kernel', 'Support Vector Machines with Class Weights', 'Support Vector Machines with Spectrum String Kernel', 'Tree Augmented Naive Bayes Classifier', ' Tree Augmented Naive Bayes Classifier Structure Learner Wrappe', 'Bagged CART', 'Variational Bayesian Multinomial Probit Regression', ' Adjacent Categories Probability Model for Ordinal Dat', ' Continuation Ratio Model for Ordinal Dat', ' Cumulative Probability Model for Ordinal Dat', 'Wang and Mendel Fuzzy Rules', 'Weighted Subspace Random Forest', 'eXtreme Gradient Boosting', 'Self-Organizing Maps']
+COLUMN_INFO 'lib_mboost' [nan, 1.0]
+COLUMN_INFO 'lib_randomForest' [nan, 1.0]
+COLUMN_INFO 'lib_glmnet' [nan, 1.0]
+COLUMN_INFO 'lib_gpls' [nan, 1.0]
+COLUMN_INFO 'lib_spls' [nan, 1.0]
+COLUMN_INFO 'lib_deepboost' [nan, 1.0]
+COLUMN_INFO 'lib_pls' [nan, 1.0]
+COLUMN_INFO 'lib_import' [nan, 1.0]
+COLUMN_INFO 'lib_mxnet"' [nan, 1.0]
+COLUMN_INFO 'lib_arm' [nan, 1.0]
+COLUMN_INFO 'lib_rrlda' [nan, 1.0]
+COLUMN_INFO 'lib_logicFS' [nan, 1.0]
+COLUMN_INFO 'lib_pamr' [nan, 1.0]
+COLUMN_INFO 'lib_monomvn' [nan, 1.0]
+COLUMN_INFO 'lib_caret' [nan, 1.0]
+COLUMN_INFO 'lib_ordinalNet' [nan, 1.0]
+COLUMN_INFO 'lib_plsRglm' [nan, 1.0]
+COLUMN_INFO 'lib_fastAdaboost' [nan, 1.0]
+COLUMN_INFO 'lib_caTools' [nan, 1.0]
+COLUMN_INFO 'lib_obliqueRF' [nan, 1.0]
+COLUMN_INFO 'lib_supervisedPRIM' [nan, 1.0]
+COLUMN_INFO 'lib_inTrees' [nan, 1.0]
+COLUMN_INFO 'lib_HDclassif' [nan, 1.0]
+COLUMN_INFO 'lib_adaptDA' [nan, 1.0]
+COLUMN_INFO 'lib_rrcov' [nan, 1.0]
+COLUMN_INFO 'lib_mda' [nan, 1.0]
+COLUMN_INFO 'lib_CHAID' [nan, 1.0]
+COLUMN_INFO 'lib_evtree' [nan, 1.0]
+COLUMN_INFO 'lib_kknn' [nan, 1.0]
+COLUMN_INFO 'lib_spikeslab' [nan, 1.0]
+COLUMN_INFO 'lib_plyr' [1.0, nan]
+COLUMN_INFO 'lib_superpc' [nan, 1.0]
+COLUMN_INFO 'lib_vbmp' [nan, 1.0]
+COLUMN_INFO 'lib_bst' [nan, 1.0]
+COLUMN_INFO 'lib_rFerns' [nan, 1.0]
+COLUMN_INFO 'lib_nodeHarvest' [nan, 1.0]
+COLUMN_INFO 'lib_stepPlr' [nan, 1.0]
+COLUMN_INFO 'lib_frbs' [nan, 1.0]
+COLUMN_INFO 'lib_party' [nan, 1.0]
+COLUMN_INFO 'lib_mgcv' [nan, 1.0]
+COLUMN_INFO 'lib_Rborist' [nan, 1.0]
+COLUMN_INFO 'lib_penalized' [nan, 1.0]
+COLUMN_INFO 'lib_sdwd' [nan, 1.0]
+COLUMN_INFO 'lib_ada' [nan, 1.0]
+COLUMN_INFO 'lib_msaenet' [nan, 1.0]
+COLUMN_INFO 'lib_sparsediscrim' [nan, 1.0]
+COLUMN_INFO 'lib_elmNN' [nan, 1.0]
+COLUMN_INFO 'lib_lars' [nan, 1.0]
+COLUMN_INFO 'lib_class' [nan, 1.0]
+COLUMN_INFO 'lib_protoclass' [nan, 1.0]
+COLUMN_INFO 'lib_rocc' [nan, 1.0]
+COLUMN_INFO 'lib_foreach' [nan, 1.0]
+COLUMN_INFO 'lib_naivebayes' [nan, 1.0]
+COLUMN_INFO 'lib_robustDA' [nan, 1.0]
+COLUMN_INFO 'lib_quantregForest' [nan, 1.0]
+COLUMN_INFO 'lib_sparseLDA' [nan, 1.0]
+COLUMN_INFO 'lib_leaps' [nan, 1.0]
+COLUMN_INFO 'lib_RWeka' [nan, 1.0]
+COLUMN_INFO 'lib_kohonen' [nan, 1.0]
+COLUMN_INFO 'lib_keras' [nan, 1.0]
+COLUMN_INFO 'lib_h2o' [nan, 1.0]
+COLUMN_INFO 'lib_C50' [nan, 1.0]
+COLUMN_INFO 'lib_nnet' [nan, 1.0]
+COLUMN_INFO 'lib_fastICA' [nan, 1.0]
+COLUMN_INFO 'lib_gbm' [nan, 1.0]
+COLUMN_INFO 'lib_xgboost' [nan, 1.0]
+COLUMN_INFO 'lib_elasticnet' [nan, 1.0]
+COLUMN_INFO 'lib_partDSA' [nan, 1.0]
+COLUMN_INFO 'lib_rqPen' [nan, 1.0]
+COLUMN_INFO 'lib_ipred' [nan, 1.0]
+COLUMN_INFO 'lib_LogicReg' [nan, 1.0]
+COLUMN_INFO 'lib_adabag' [1.0, nan]
+COLUMN_INFO 'lib_ranger' [nan, 1.0]
+COLUMN_INFO 'lib_bartMachine' [nan, 1.0]
+COLUMN_INFO 'lib_bnclassify' [nan, 1.0]
+COLUMN_INFO 'lib_RRF' [nan, 1.0]
+COLUMN_INFO 'lib_hda' [nan, 1.0]
+COLUMN_INFO 'lib_kerndwd' [nan, 1.0]
+COLUMN_INFO 'lib_dplyr' [nan, 1.0]
+COLUMN_INFO 'lib_HiDimDA' [nan, 1.0]
+COLUMN_INFO 'lib_brnn' [nan, 1.0]
+COLUMN_INFO 'lib_monmlp' [nan, 1.0]
+COLUMN_INFO 'lib_nnls' [nan, 1.0]
+COLUMN_INFO 'lib_kernlab' [nan, 1.0]
+COLUMN_INFO 'lib_mxnet' [nan, 1.0]
+COLUMN_INFO 'lib_proxy' [nan, 1.0]
+COLUMN_INFO 'lib_LiblineaR' [nan, 1.0]
+COLUMN_INFO 'lib_FCNN4R' [nan, 1.0]
+COLUMN_INFO 'lib_qrnn' [nan, 1.0]
+COLUMN_INFO 'lib_rrcovHD' [nan, 1.0]
+COLUMN_INFO 'lib_earth' [nan, 1.0]
+COLUMN_INFO 'lib_Cubist' [nan, 1.0]
+COLUMN_INFO 'lib_Matrix' [nan, 1.0]
+COLUMN_INFO 'lib_deepnet' [nan, 1.0]
+COLUMN_INFO 'lib_VGAM' [nan, 1.0]
+COLUMN_INFO 'lib_neuralnet' [nan, 1.0]
+COLUMN_INFO 'lib_RSNNS' [nan, 1.0]
+COLUMN_INFO 'lib_gam' [nan, 1.0]
+COLUMN_INFO 'lib_binda' [nan, 1.0]
+COLUMN_INFO 'lib_wsrf' [nan, 1.0]
+COLUMN_INFO 'lib_MASS' [nan, 1.0]
+COLUMN_INFO 'lib_penalizedLDA' [nan, 1.0]
+COLUMN_INFO 'lib_randomGLM' [nan, 1.0]
+COLUMN_INFO 'lib_klaR' [nan, 1.0]
+COLUMN_INFO 'lib_rpart' [nan, 1.0]
+COLUMN_INFO 'lib_extraTrees' [nan, 1.0]
+COLUMN_INFO 'lib_sda' [nan, 1.0]
+COLUMN_INFO 'lib_relaxo' [nan, 1.0]
+COLUMN_INFO 'lib_snn' [nan, 1.0]
+COLUMN_INFO 'lib_foba' [nan, 1.0]
+COLUMN_INFO 'lib_KRLS' [nan, 1.0]
+COLUMN_INFO 'lib_e1071' [nan, 1.0]
+COLUMN_INFO 'lib_rpartScore' [nan, 1.0]
+COLUMN_INFO 'lib_rotationForest' [nan, 1.0]
+COLUMN_INFO 'type_Regression' [nan, 1.0]
+COLUMN_INFO 'type_Classification' [1.0, nan]
+COLUMN_INFO 'tag_' [nan, 1.0]
+COLUMN_INFO 'tag_L2 Regularization' [nan, 1.0]
+COLUMN_INFO 'tag_Discriminant Analysis' [nan, 1.0]
+COLUMN_INFO 'tag_Two Class Only' [nan, 1.0]
+COLUMN_INFO 'tag_Generalized Additive Model' [nan, 1.0]
+COLUMN_INFO 'tag_Model Tree' [nan, 1.0]
+COLUMN_INFO 'tag_Robust Methods' [nan, 1.0]
+COLUMN_INFO 'tag_Categorical Predictors Only' [nan, 1.0]
+COLUMN_INFO 'tag_Rule-Based Model' [nan, 1.0]
+COLUMN_INFO 'tag_Logistic Regression' [nan, 1.0]
+COLUMN_INFO 'tag_Feature Selection Wrapper' [nan, 1.0]
+COLUMN_INFO 'tag_UL' [nan, 1.0]
+COLUMN_INFO 'tag_Oblique Tree' [nan, 1.0]
+COLUMN_INFO 'tag_Accepts Case Weights' [nan, 1.0]
+COLUMN_INFO 'tag_Linear Classifier' [nan, 1.0]
+COLUMN_INFO 'tag_Robust Model' [nan, 1.0]
+COLUMN_INFO 'tag_String Kernel' [nan, 1.0]
+COLUMN_INFO 'tag_Prototype Models' [nan, 1.0]
+COLUMN_INFO 'tag_Generalized Linear Model' [nan, 1.0]
+COLUMN_INFO 'tag_Partial Least Squares' [nan, 1.0]
+COLUMN_INFO 'tag_Regularization' [nan, 1.0]
+COLUMN_INFO 'tag_Discriminant Analysis Models' [nan, 1.0]
+COLUMN_INFO 'tag_Kernel Method' [nan, 1.0]
+COLUMN_INFO 'tag_Gaussian Process' [nan, 1.0]
+COLUMN_INFO 'tag_Support Vector Machines' [nan, 1.0]
+COLUMN_INFO 'tag_Cost Sensitive Learning' [nan, 1.0]
+COLUMN_INFO 'tag_Linear Classifier Models' [nan, 1.0]
+COLUMN_INFO 'tag_Patient Rule Induction Method' [nan, 1.0]
+COLUMN_INFO 'tag_Handle Missing Predictor Data' [nan, 1.0]
+COLUMN_INFO 'tag_Quantile Regression' [nan, 1.0]
+COLUMN_INFO 'tag_Random Forest' [nan, 1.0]
+COLUMN_INFO 'tag_L1 Regularization' [nan, 1.0]
+COLUMN_INFO 'tag_Generalized Linear Models' [nan, 1.0]
+COLUMN_INFO 'tag_Multivariate Adaptive Regression Splines' [nan, 1.0]
+COLUMN_INFO 'tag_Binary Predictors Only' [nan, 1.0]
+COLUMN_INFO 'tag_Ridge Regression' [nan, 1.0]
+COLUMN_INFO 'tag_Radial Basis Function' [nan, 1.0]
+COLUMN_INFO 'tag_Ensemble Model' [1.0, nan]
+COLUMN_INFO 'tag_Bayesian Model' [nan, 1.0]
+COLUMN_INFO 'tag_Neural Network' [nan, 1.0]
+COLUMN_INFO 'tag_Feature Extraction' [nan, 1.0]
+COLUMN_INFO 'tag_Tree-Based Model' [1.0, nan]
+COLUMN_INFO 'tag_Logic Regression' [nan, 1.0]
+COLUMN_INFO 'tag_Bagging' [1.0, nan]
+COLUMN_INFO 'tag_Implicit Feature Selection' [nan, 1.0]
+COLUMN_INFO 'tag_Boosting' [1.0, nan]
+COLUMN_INFO 'tag_Polynomial Model' [nan, 1.0]
+COLUMN_INFO 'tag_Self-Organising Maps' [nan, 1.0]
+COLUMN_INFO 'tag_Linear Regression' [nan, 1.0]
+COLUMN_INFO 'tag_ROC Curves' [nan, 1.0]
+COLUMN_INFO 'tag_Mixture Model' [nan, 1.0]
+COLUMN_INFO 'tag_Relevance Vector Machines' [nan, 1.0]
+COLUMN_INFO 'tag_Ordinal Outcomes' [nan, 1.0]
