@@ -235,193 +235,193 @@
 {'mMethod': 'xgbLinear', 'mLabel': 'eXtreme Gradient Boosting', 'mLibraries': ['xgboost'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Linear Classifier Models']}
 {'mMethod': 'xgbTree', 'mLabel': 'eXtreme Gradient Boosting', 'mLibraries': ['xgboost', 'plyr'], 'mTypes': ['Regression', 'Classification'], 'mTags': ['Tree-Based Model', 'Boosting', 'Ensemble Model', 'Implicit Feature Selection', 'Accepts Case Weights']}
 {'mMethod': 'xyf', 'mLabel': 'Self-Organizing Maps', 'mLibraries': ['kohonen'], 'mTypes': ['Classification', 'Regression'], 'mTags': ['Self-Organising Maps']}
-        Method         ...          tag_Ordinal Outcomes
-0       AdaBag         ...                           NaN
-1  AdaBoost.M1         ...                           NaN
-2     adaboost         ...                           NaN
-3          ada         ...                           NaN
-4        amdai         ...                           NaN
+        Method  ...   tag_UL
+0       AdaBag  ...      NaN
+1  AdaBoost.M1  ...      NaN
+2     adaboost  ...      NaN
+3          ada  ...      NaN
+4        amdai  ...      NaN
 
 [5 rows x 171 columns]
-       lib_mboost          ...           tag_Ordinal Outcomes
-count         3.0          ...                            4.0
-mean          1.0          ...                            1.0
-std           0.0          ...                            0.0
-min           1.0          ...                            1.0
-25%           1.0          ...                            1.0
-50%           1.0          ...                            1.0
-75%           1.0          ...                            1.0
-max           1.0          ...                            1.0
+       lib_C50  lib_CHAID   ...    tag_Two Class Only  tag_UL
+count      4.0        1.0   ...                   6.0     1.0
+mean       1.0        1.0   ...                   1.0     1.0
+std        0.0        NaN   ...                   0.0     NaN
+min        1.0        1.0   ...                   1.0     1.0
+25%        1.0        1.0   ...                   1.0     1.0
+50%        1.0        1.0   ...                   1.0     1.0
+75%        1.0        1.0   ...                   1.0     1.0
+max        1.0        1.0   ...                   1.0     1.0
 
 [8 rows x 169 columns]
-COLUMN_INFO 'Method' ['AdaBag', 'AdaBoost.M1', 'adaboost', 'ada', 'amdai', 'ANFIS', 'avNNet', 'awnb', 'awtan', 'bagEarthGCV', 'bagEarth', 'bagFDAGCV', 'bagFDA', 'bag', 'bam', 'bartMachine', 'bayesglm', 'binda', 'blackboost', 'blassoAveraged', 'blasso', 'bridge', 'brnn', 'BstLm', 'bstSm', 'bstTree', 'C5.0Cost', 'C5.0', 'C5.0Rules', 'C5.0Tree', 'cforest', 'chaid', 'CSimca', 'ctree2', 'ctree', 'cubist', 'dda', 'deepboost', 'DENFIS', 'dnn', 'dwdLinear', 'dwdPoly', 'dwdRadial', 'earth', 'elm', 'enet', 'evtree', 'extraTrees', 'fda', 'FH.GBML', 'FIR.DM', 'foba', 'FRBCS.CHI', 'FRBCS.W', 'FS.HGD', 'gamboost', 'gamLoess', 'gam', 'gamSpline', 'gaussprLinear', 'gaussprPoly', 'gaussprRadial', 'gbm_h2o', 'gbm', 'gcvEarth', 'GFS.FR.MOGUL', 'GFS.LTS', 'GFS.THRIFT', 'glmboost', 'glm.nb', 'glmnet_h2o', 'glmnet', 'glm', 'glmStepAIC', 'gpls', 'hda', 'hdda', 'hdrda', 'HYFIS', 'icr', 'J48', 'JRip', 'kernelpls', 'kknn', 'knn', 'krlsPoly', 'krlsRadial', 'lars2', 'lars', 'lasso', 'lda2', 'lda', 'leapBackward', 'leapForward', 'leapSeq', 'Linda', 'lm', 'lmStepAIC', 'LMT', 'loclda', 'logicBag', 'LogitBoost', 'logreg', 'lssvmLinear', 'lssvmPoly', 'lssvmRadial', 'lvq', 'M5', 'M5Rules', 'manb', 'mda', 'Mlda', 'mlpKerasDecayCost', 'mlpKerasDecay', 'mlpKerasDropoutCost', 'mlpKerasDropout', 'mlpML', 'mlp', 'mlpSGD', 'mlpWeightDecayML', 'mlpWeightDecay', 'monmlp', 'msaenet', 'multinom', 'mxnetAdam', 'mxnet', 'naive_bayes', 'nbDiscrete', 'nb', 'nbSearch', 'neuralnet', 'nnet', 'nnls', 'nodeHarvest', 'null', 'OneR', 'ordinalNet', 'ORFlog', 'ORFpls', 'ORFridge', 'ORFsvm', 'ownn', 'pam', 'parRF', 'partDSA', 'PART', 'pcaNNet', 'pcr', 'pda2', 'pda', 'PenalizedLDA', 'penalized', 'plr', 'pls', 'plsRglm', 'polr', 'ppr', 'PRIM', 'protoclass', 'QdaCov', 'qda', 'qrf', 'qrnn', 'randomGLM', 'ranger', 'rbfDDA', 'rbf', 'Rborist', 'rda', 'regLogistic', 'relaxo', 'rFerns', 'RFlda', 'rf', 'rfRules', 'ridge', 'rlda', 'rlm', 'rmda', 'rocc', 'rotationForestCp', 'rotationForest', 'rpart1SE', 'rpart2', 'rpartCost', 'rpart', 'rpartScore', 'rqlasso', 'rqnc', 'RRFglobal', 'RRF', 'rrlda', 'RSimca', 'rvmLinear', 'rvmPoly', 'rvmRadial', 'SBC', 'sda', 'sdwd', 'simpls', 'SLAVE', 'slda', 'smda', 'snn', 'sparseLDA', 'spikeslab', 'spls', 'stepLDA', 'stepQDA', 'superpc', 'svmBoundrangeString', 'svmExpoString', 'svmLinear2', 'svmLinear3', 'svmLinear', 'svmLinearWeights2', 'svmLinearWeights', 'svmPoly', 'svmRadialCost', 'svmRadial', 'svmRadialSigma', 'svmRadialWeights', 'svmSpectrumString', 'tan', 'tanSearch', 'treebag', 'vbmpRadial', 'vglmAdjCat', 'vglmContRatio', 'vglmCumulative', 'widekernelpls', 'WM', 'wsrf', 'xgbDART', 'xgbLinear', 'xgbTree', 'xyf']
-COLUMN_INFO 'Label' ['Bagged AdaBoost', 'AdaBoost.M1', 'AdaBoost Classification Trees', 'Boosted Classification Trees', 'Adaptive Mixture Discriminant Analysis', 'Adaptive-Network-Based Fuzzy Inference System', 'Model Averaged Neural Network,', 'Naive Bayes Classifier with Attribute Weighting', ' Tree Augmented Naive Bayes Classifier with Attribute Weightin', 'Bagged MARS using gCV Pruning,', 'Bagged MARS,', 'Bagged FDA using gCV Pruning,', 'Bagged Flexible Discriminant Analysis,', 'Bagged Model', 'Generalized Additive Model using Splines', 'Bayesian Additive Regression Trees', 'Bayesian Generalized Linear Model', 'Binary Discriminant Analysis', 'Boosted Tree,', 'Bayesian Ridge Regression (Model Averaged)', 'The Bayesian lasso', 'Bayesian Ridge Regression', 'Bayesian Regularized Neural Networks', 'Boosted Linear Model,', 'Boosted Smoothing Spline,', 'Cost-Sensitive C5.0', 'C5.0,', 'Single C5.0 Ruleset,', 'Single C5.0 Tree,', 'Conditional Inference Random Forest', 'CHi-squared Automated Interaction Detection', 'SIMCA', 'Conditional Inference Tree', 'Cubist', 'Diagonal Discriminant Analysis', 'DeepBoost', 'Dynamic Evolving Neural-Fuzzy Inference System ', 'Stacked AutoEncoder Deep Neural Network', 'Linear Distance Weighted Discrimination', 'Distance Weighted Discrimination with Polynomial Kernel', 'Distance Weighted Discrimination with Radial Basis Function Kernel', 'Multivariate Adaptive Regression Spline', 'Extreme Learning Machine', 'Elasticnet', 'Tree Models from Genetic Algorithms', 'Random Forest by Randomization', 'Flexible Discriminant Analysis', 'Fuzzy Rules Using Genetic Cooperative-Competitive Learning and Pittsburgh', 'Fuzzy Inference Rules by Descent Method', 'Ridge Regression with Variable Selection', "Fuzzy Rules Using Chi's Method", 'Fuzzy Rules with Weight Factor', 'Simplified TSK Fuzzy Rules', 'Boosted Generalized Additive Model', 'Generalized Additive Model using LOESS', 'Gaussian Process', 'Gaussian Process with Polynomial Kernel', 'Gaussian Process with Radial Basis Function Kernel', 'Gradient Boosting Machines', 'Stochastic Gradient Boosting', 'Multivariate Adaptive Regression Splines', 'Fuzzy Rules via MOGUL', 'Genetic Lateral Tuning and Rule Selection of Linguistic Fuzzy Systems', 'Fuzzy Rules via Thrift', 'Boosted Generalized Linear Model', 'Negative Binomial Generalized Linear Model', 'glmnet', 'Generalized Linear Model', 'Generalized Linear Model with Stepwise Feature Selection', 'Generalized Partial Least Squares', 'Heteroscedastic Discriminant Analysis', 'High Dimensional Discriminant Analysis', 'High-Dimensional Regularized Discriminant Analysis', 'Hybrid Neural Fuzzy Inference System', 'Independent Component Regression', 'C4.5-like Trees', 'Rule-Based Classifier', 'Partial Least Squares', 'k-Nearest Neighbors', 'olynomial Kernel Regularized Least Squares', 'Radial Basis Function Kernel Regularized Least Squares', 'Least Angle Regression', 'The lasso', 'Linear Discriminant Analysis', 'Linear Regression with Backwards Selection', 'Linear Regression with Forward Selection', 'Linear Regression with Stepwise Selection', 'Robust Linear Discriminant Analysis', 'Linear Regression', 'Logistic Model Trees', 'Localized Linear Discriminant Analysis', 'Bagged Logic Regression', 'Boosted Logistic Regression', 'Logic Regression', 'Least Squares Support Vector Machine', 'Least Squares Support Vector Machine with Polynomial Kernel', 'Least Squares Support Vector Machine with Radial Basis Function Kernel', 'Learning Vector Quantization', 'Model Tree', 'Model Rules', 'Model Averaged Naive Bayes Classifier', 'Mixture Discriminant Analysis', 'Maximum Uncertainty Linear Discriminant Analysis', 'Multilayer Perceptron Network with Weight Decay', 'Multilayer Perceptron Network with Dropout', 'Multi-Layer Perceptron, with multiple layers', 'Multi-Layer Perceptron', 'Multilayer Perceptron Network by Stochastic Gradient Descent', 'Multi-Layer Perceptron, multiple layers', 'Monotone Multi-Layer Perceptron Neural Network', 'Multi-Step Adaptive MCP-Net', 'Penalized Multinomial Regression', 'Neural Network,', 'Neural Network', 'Naive Bayes', 'Naive Bayes Classifier', ' Semi-Naive Structure Learner Wrappe', 'Non-Negative Least Squares', 'Tree-Based Ensembles', 'Non-Informative Model', 'Single Rule Classification', 'Penalized Ordinal Regression', 'Oblique Random Forest', 'Optimal Weighted Nearest Neighbor Classifier', 'Nearest Shrunken Centroids', 'Parallel Random Forest', 'partDSA', 'Neural Networks with Feature Extraction', 'Principal Component Analysis', 'Penalized Discriminant Analysis', 'Penalized Linear Discriminant Analysis', 'Penalized Linear Regression', 'Penalized Logistic Regression', 'Partial Least Squares Generalized Linear Models ', ' Ordered Logistic or Probit Regressio', 'Projection Pursuit Regression', 'Patient Rule Induction Method', 'Greedy Prototype Selection', 'Robust Quadratic Discriminant Analysis', 'Quadratic Discriminant Analysis', 'Quantile Random Forest', 'Quantile Regression Neural Network', 'Ensembles of Generalized Linear Models', 'Random Forest', 'Radial Basis Function Network', 'Regularized Discriminant Analysis', 'Regularized Logistic Regression', 'Relaxed Lasso', 'Random Ferns', 'Factor-Based Linear Discriminant Analysis', 'Random Forest Rule-Based Model', 'Ridge Regression', 'Regularized Linear Discriminant Analysis', 'Robust Linear Model', 'Robust Mixture Discriminant Analysis', 'ROC-Based Classifier', 'Rotation Forest', 'CART', 'Cost-Sensitive CART', 'CART or Ordinal Responses', 'Quantile Regression with LASSO penalty', 'Non-Convex Penalized Quantile Regression', 'Regularized Random Forest', 'Robust Regularized Linear Discriminant Analysis', 'Robust SIMCA', 'Relevance Vector Machines with Linear Kernel', 'Relevance Vector Machines with Polynomial Kernel', 'Relevance Vector Machines with Radial Basis Function Kernel', 'Subtractive Clustering and Fuzzy c-Means Rules', 'Shrinkage Discriminant Analysis', 'Sparse Distance Weighted Discrimination', 'Fuzzy Rules Using the Structural Learning Algorithm on Vague Environment', 'Stabilized Linear Discriminant Analysis', 'Sparse Mixture Discriminant Analysis', 'Stabilized Nearest Neighbor Classifier', 'Sparse Linear Discriminant Analysis', 'Spike and Slab Regression', 'Sparse Partial Least Squares', 'Linear Discriminant Analysis with Stepwise Feature Selection', 'Quadratic Discriminant Analysis with Stepwise Feature Selection', 'Supervised Principal Component Analysis', 'Support Vector Machines with Boundrange String Kernel', 'Support Vector Machines with Exponential String Kernel', 'Support Vector Machines with Linear Kernel', 'L2 Regularized Support Vector Machine (dual) with Linear Kernel', 'L2 Regularized Linear Support Vector Machines with Class Weights', 'Linear Support Vector Machines with Class Weights', 'Support Vector Machines with Polynomial Kernel', 'Support Vector Machines with Radial Basis Function Kernel', 'Support Vector Machines with Class Weights', 'Support Vector Machines with Spectrum String Kernel', 'Tree Augmented Naive Bayes Classifier', ' Tree Augmented Naive Bayes Classifier Structure Learner Wrappe', 'Bagged CART', 'Variational Bayesian Multinomial Probit Regression', ' Adjacent Categories Probability Model for Ordinal Dat', ' Continuation Ratio Model for Ordinal Dat', ' Cumulative Probability Model for Ordinal Dat', 'Wang and Mendel Fuzzy Rules', 'Weighted Subspace Random Forest', 'eXtreme Gradient Boosting', 'Self-Organizing Maps']
-COLUMN_INFO 'lib_mboost' [nan, 1.0]
-COLUMN_INFO 'lib_randomForest' [nan, 1.0]
-COLUMN_INFO 'lib_glmnet' [nan, 1.0]
-COLUMN_INFO 'lib_gpls' [nan, 1.0]
-COLUMN_INFO 'lib_spls' [nan, 1.0]
-COLUMN_INFO 'lib_deepboost' [nan, 1.0]
-COLUMN_INFO 'lib_pls' [nan, 1.0]
-COLUMN_INFO 'lib_import' [nan, 1.0]
-COLUMN_INFO 'lib_mxnet"' [nan, 1.0]
-COLUMN_INFO 'lib_arm' [nan, 1.0]
-COLUMN_INFO 'lib_rrlda' [nan, 1.0]
-COLUMN_INFO 'lib_logicFS' [nan, 1.0]
-COLUMN_INFO 'lib_pamr' [nan, 1.0]
-COLUMN_INFO 'lib_monomvn' [nan, 1.0]
-COLUMN_INFO 'lib_caret' [nan, 1.0]
-COLUMN_INFO 'lib_ordinalNet' [nan, 1.0]
-COLUMN_INFO 'lib_plsRglm' [nan, 1.0]
-COLUMN_INFO 'lib_fastAdaboost' [nan, 1.0]
-COLUMN_INFO 'lib_caTools' [nan, 1.0]
-COLUMN_INFO 'lib_obliqueRF' [nan, 1.0]
-COLUMN_INFO 'lib_supervisedPRIM' [nan, 1.0]
-COLUMN_INFO 'lib_inTrees' [nan, 1.0]
-COLUMN_INFO 'lib_HDclassif' [nan, 1.0]
-COLUMN_INFO 'lib_adaptDA' [nan, 1.0]
-COLUMN_INFO 'lib_rrcov' [nan, 1.0]
-COLUMN_INFO 'lib_mda' [nan, 1.0]
-COLUMN_INFO 'lib_CHAID' [nan, 1.0]
-COLUMN_INFO 'lib_evtree' [nan, 1.0]
-COLUMN_INFO 'lib_kknn' [nan, 1.0]
-COLUMN_INFO 'lib_spikeslab' [nan, 1.0]
-COLUMN_INFO 'lib_plyr' [1.0, nan]
-COLUMN_INFO 'lib_superpc' [nan, 1.0]
-COLUMN_INFO 'lib_vbmp' [nan, 1.0]
-COLUMN_INFO 'lib_bst' [nan, 1.0]
-COLUMN_INFO 'lib_rFerns' [nan, 1.0]
-COLUMN_INFO 'lib_nodeHarvest' [nan, 1.0]
-COLUMN_INFO 'lib_stepPlr' [nan, 1.0]
-COLUMN_INFO 'lib_frbs' [nan, 1.0]
-COLUMN_INFO 'lib_party' [nan, 1.0]
-COLUMN_INFO 'lib_mgcv' [nan, 1.0]
-COLUMN_INFO 'lib_Rborist' [nan, 1.0]
-COLUMN_INFO 'lib_penalized' [nan, 1.0]
-COLUMN_INFO 'lib_sdwd' [nan, 1.0]
-COLUMN_INFO 'lib_ada' [nan, 1.0]
-COLUMN_INFO 'lib_msaenet' [nan, 1.0]
-COLUMN_INFO 'lib_sparsediscrim' [nan, 1.0]
-COLUMN_INFO 'lib_elmNN' [nan, 1.0]
-COLUMN_INFO 'lib_lars' [nan, 1.0]
-COLUMN_INFO 'lib_class' [nan, 1.0]
-COLUMN_INFO 'lib_protoclass' [nan, 1.0]
-COLUMN_INFO 'lib_rocc' [nan, 1.0]
-COLUMN_INFO 'lib_foreach' [nan, 1.0]
-COLUMN_INFO 'lib_naivebayes' [nan, 1.0]
-COLUMN_INFO 'lib_robustDA' [nan, 1.0]
-COLUMN_INFO 'lib_quantregForest' [nan, 1.0]
-COLUMN_INFO 'lib_sparseLDA' [nan, 1.0]
-COLUMN_INFO 'lib_leaps' [nan, 1.0]
-COLUMN_INFO 'lib_RWeka' [nan, 1.0]
-COLUMN_INFO 'lib_kohonen' [nan, 1.0]
-COLUMN_INFO 'lib_keras' [nan, 1.0]
-COLUMN_INFO 'lib_h2o' [nan, 1.0]
-COLUMN_INFO 'lib_C50' [nan, 1.0]
-COLUMN_INFO 'lib_nnet' [nan, 1.0]
-COLUMN_INFO 'lib_fastICA' [nan, 1.0]
-COLUMN_INFO 'lib_gbm' [nan, 1.0]
-COLUMN_INFO 'lib_xgboost' [nan, 1.0]
-COLUMN_INFO 'lib_elasticnet' [nan, 1.0]
-COLUMN_INFO 'lib_partDSA' [nan, 1.0]
-COLUMN_INFO 'lib_rqPen' [nan, 1.0]
-COLUMN_INFO 'lib_ipred' [nan, 1.0]
-COLUMN_INFO 'lib_LogicReg' [nan, 1.0]
-COLUMN_INFO 'lib_adabag' [1.0, nan]
-COLUMN_INFO 'lib_ranger' [nan, 1.0]
-COLUMN_INFO 'lib_bartMachine' [nan, 1.0]
-COLUMN_INFO 'lib_bnclassify' [nan, 1.0]
-COLUMN_INFO 'lib_RRF' [nan, 1.0]
-COLUMN_INFO 'lib_hda' [nan, 1.0]
-COLUMN_INFO 'lib_kerndwd' [nan, 1.0]
-COLUMN_INFO 'lib_dplyr' [nan, 1.0]
-COLUMN_INFO 'lib_HiDimDA' [nan, 1.0]
-COLUMN_INFO 'lib_brnn' [nan, 1.0]
-COLUMN_INFO 'lib_monmlp' [nan, 1.0]
-COLUMN_INFO 'lib_nnls' [nan, 1.0]
-COLUMN_INFO 'lib_kernlab' [nan, 1.0]
-COLUMN_INFO 'lib_mxnet' [nan, 1.0]
-COLUMN_INFO 'lib_proxy' [nan, 1.0]
-COLUMN_INFO 'lib_LiblineaR' [nan, 1.0]
-COLUMN_INFO 'lib_FCNN4R' [nan, 1.0]
-COLUMN_INFO 'lib_qrnn' [nan, 1.0]
-COLUMN_INFO 'lib_rrcovHD' [nan, 1.0]
-COLUMN_INFO 'lib_earth' [nan, 1.0]
-COLUMN_INFO 'lib_Cubist' [nan, 1.0]
-COLUMN_INFO 'lib_Matrix' [nan, 1.0]
-COLUMN_INFO 'lib_deepnet' [nan, 1.0]
-COLUMN_INFO 'lib_VGAM' [nan, 1.0]
-COLUMN_INFO 'lib_neuralnet' [nan, 1.0]
-COLUMN_INFO 'lib_RSNNS' [nan, 1.0]
-COLUMN_INFO 'lib_gam' [nan, 1.0]
-COLUMN_INFO 'lib_binda' [nan, 1.0]
-COLUMN_INFO 'lib_wsrf' [nan, 1.0]
-COLUMN_INFO 'lib_MASS' [nan, 1.0]
-COLUMN_INFO 'lib_penalizedLDA' [nan, 1.0]
-COLUMN_INFO 'lib_randomGLM' [nan, 1.0]
-COLUMN_INFO 'lib_klaR' [nan, 1.0]
-COLUMN_INFO 'lib_rpart' [nan, 1.0]
-COLUMN_INFO 'lib_extraTrees' [nan, 1.0]
-COLUMN_INFO 'lib_sda' [nan, 1.0]
-COLUMN_INFO 'lib_relaxo' [nan, 1.0]
-COLUMN_INFO 'lib_snn' [nan, 1.0]
-COLUMN_INFO 'lib_foba' [nan, 1.0]
-COLUMN_INFO 'lib_KRLS' [nan, 1.0]
-COLUMN_INFO 'lib_e1071' [nan, 1.0]
-COLUMN_INFO 'lib_rpartScore' [nan, 1.0]
-COLUMN_INFO 'lib_rotationForest' [nan, 1.0]
-COLUMN_INFO 'type_Regression' [nan, 1.0]
-COLUMN_INFO 'type_Classification' [1.0, nan]
-COLUMN_INFO 'tag_' [nan, 1.0]
-COLUMN_INFO 'tag_L2 Regularization' [nan, 1.0]
-COLUMN_INFO 'tag_Discriminant Analysis' [nan, 1.0]
-COLUMN_INFO 'tag_Two Class Only' [nan, 1.0]
-COLUMN_INFO 'tag_Generalized Additive Model' [nan, 1.0]
-COLUMN_INFO 'tag_Model Tree' [nan, 1.0]
-COLUMN_INFO 'tag_Robust Methods' [nan, 1.0]
-COLUMN_INFO 'tag_Categorical Predictors Only' [nan, 1.0]
-COLUMN_INFO 'tag_Rule-Based Model' [nan, 1.0]
-COLUMN_INFO 'tag_Logistic Regression' [nan, 1.0]
-COLUMN_INFO 'tag_Feature Selection Wrapper' [nan, 1.0]
-COLUMN_INFO 'tag_UL' [nan, 1.0]
-COLUMN_INFO 'tag_Oblique Tree' [nan, 1.0]
-COLUMN_INFO 'tag_Accepts Case Weights' [nan, 1.0]
-COLUMN_INFO 'tag_Linear Classifier' [nan, 1.0]
-COLUMN_INFO 'tag_Robust Model' [nan, 1.0]
-COLUMN_INFO 'tag_String Kernel' [nan, 1.0]
-COLUMN_INFO 'tag_Prototype Models' [nan, 1.0]
-COLUMN_INFO 'tag_Generalized Linear Model' [nan, 1.0]
-COLUMN_INFO 'tag_Partial Least Squares' [nan, 1.0]
-COLUMN_INFO 'tag_Regularization' [nan, 1.0]
-COLUMN_INFO 'tag_Discriminant Analysis Models' [nan, 1.0]
-COLUMN_INFO 'tag_Kernel Method' [nan, 1.0]
-COLUMN_INFO 'tag_Gaussian Process' [nan, 1.0]
-COLUMN_INFO 'tag_Support Vector Machines' [nan, 1.0]
-COLUMN_INFO 'tag_Cost Sensitive Learning' [nan, 1.0]
-COLUMN_INFO 'tag_Linear Classifier Models' [nan, 1.0]
-COLUMN_INFO 'tag_Patient Rule Induction Method' [nan, 1.0]
-COLUMN_INFO 'tag_Handle Missing Predictor Data' [nan, 1.0]
-COLUMN_INFO 'tag_Quantile Regression' [nan, 1.0]
-COLUMN_INFO 'tag_Random Forest' [nan, 1.0]
-COLUMN_INFO 'tag_L1 Regularization' [nan, 1.0]
-COLUMN_INFO 'tag_Generalized Linear Models' [nan, 1.0]
-COLUMN_INFO 'tag_Multivariate Adaptive Regression Splines' [nan, 1.0]
-COLUMN_INFO 'tag_Binary Predictors Only' [nan, 1.0]
-COLUMN_INFO 'tag_Ridge Regression' [nan, 1.0]
-COLUMN_INFO 'tag_Radial Basis Function' [nan, 1.0]
-COLUMN_INFO 'tag_Ensemble Model' [1.0, nan]
-COLUMN_INFO 'tag_Bayesian Model' [nan, 1.0]
-COLUMN_INFO 'tag_Neural Network' [nan, 1.0]
-COLUMN_INFO 'tag_Feature Extraction' [nan, 1.0]
-COLUMN_INFO 'tag_Tree-Based Model' [1.0, nan]
-COLUMN_INFO 'tag_Logic Regression' [nan, 1.0]
-COLUMN_INFO 'tag_Bagging' [1.0, nan]
-COLUMN_INFO 'tag_Implicit Feature Selection' [nan, 1.0]
-COLUMN_INFO 'tag_Boosting' [1.0, nan]
-COLUMN_INFO 'tag_Polynomial Model' [nan, 1.0]
-COLUMN_INFO 'tag_Self-Organising Maps' [nan, 1.0]
-COLUMN_INFO 'tag_Linear Regression' [nan, 1.0]
-COLUMN_INFO 'tag_ROC Curves' [nan, 1.0]
-COLUMN_INFO 'tag_Mixture Model' [nan, 1.0]
-COLUMN_INFO 'tag_Relevance Vector Machines' [nan, 1.0]
-COLUMN_INFO 'tag_Ordinal Outcomes' [nan, 1.0]
+COLUMN_INFO 'Method' ['AdaBag', 'AdaBoost.M1', 'adaboost', 'ada', 'amdai', 'ANFIS', 'avNNet', 'awnb', 'awtan', 'bagEarthGCV', 'bagEarth', 'bagFDAGCV', 'bagFDA', 'bag', 'bam', 'bartMachine', 'bayesglm', 'binda', 'blackboost', 'blassoAveraged', 'blasso', 'bridge', 'brnn', 'BstLm', 'bstSm', 'bstTree', 'C5.0Cost', 'C5.0', 'C5.0Rules', 'C5.0Tree', 'cforest', 'chaid', 'CSimca', 'ctree2', 'ctree', 'cubist', 'dda', 'deepboost', 'DENFIS', 'dnn', 'dwdLinear', 'dwdPoly', 'dwdRadial', 'earth', 'elm', 'enet', 'evtree', 'extraTrees', 'fda', 'FH.GBML', 'FIR.DM', 'foba', 'FRBCS.CHI', 'FRBCS.W', 'FS.HGD', 'gamboost', 'gamLoess', 'gam', 'gamSpline', 'gaussprLinear', 'gaussprPoly', 'gaussprRadial', 'gbm_h2o', 'gbm', 'gcvEarth', 'GFS.FR.MOGUL', 'GFS.LTS', 'GFS.THRIFT', 'glmboost', 'glm.nb', 'glmnet_h2o', 'glmnet', 'glm', 'glmStepAIC', 'gpls', 'hda', 'hdda', 'hdrda', 'HYFIS', 'icr', 'J48', 'JRip', 'kernelpls', 'kknn', 'knn', 'krlsPoly', 'krlsRadial', 'lars2', 'lars', 'lasso', 'lda2', 'lda', 'leapBackward', 'leapForward', 'leapSeq', 'Linda', 'lm', 'lmStepAIC', 'LMT', 'loclda', 'logicBag', 'LogitBoost', 'logreg', 'lssvmLinear', 'lssvmPoly', 'lssvmRadial', 'lvq', 'M5', 'M5Rules', 'manb', 'mda', 'Mlda', 'mlpKerasDecayCost', 'mlpKerasDecay', 'mlpKerasDropoutCost', 'mlpKerasDropout', 'mlpML', 'mlp', 'mlpSGD', 'mlpWeightDecayML', 'mlpWeightDecay', 'monmlp', 'msaenet', 'multinom', 'mxnetAdam', 'mxnet', 'naive_bayes', 'nbDiscrete', 'nb', 'nbSearch', 'neuralnet', 'nnet', 'nnls', 'nodeHarvest', 'null', 'OneR', 'ordinalNet', 'ORFlog', 'ORFpls', 'ORFridge', 'ORFsvm', 'ownn', 'pam', 'parRF', 'partDSA', 'PART', 'pcaNNet', 'pcr', 'pda2', 'pda', 'PenalizedLDA', 'penalized', 'plr', 'pls', 'plsRglm', 'polr', 'ppr', 'PRIM', 'protoclass', 'QdaCov', 'qda', 'qrf', 'qrnn', 'randomGLM', 'ranger', 'rbfDDA', 'rbf', 'Rborist', 'rda', 'regLogistic', 'relaxo', 'rFerns', 'RFlda', 'rf', 'rfRules', 'ridge', 'rlda', 'rlm', 'rmda', 'rocc', 'rotationForestCp', 'rotationForest', 'rpart1SE', 'rpart2', 'rpartCost', 'rpart', 'rpartScore', 'rqlasso', 'rqnc', 'RRFglobal', 'RRF', 'rrlda', 'RSimca', 'rvmLinear', 'rvmPoly', 'rvmRadial', 'SBC', 'sda', 'sdwd', 'simpls', 'SLAVE', 'slda', 'smda', 'snn', 'sparseLDA', 'spikeslab', 'spls', 'stepLDA', 'stepQDA', 'superpc', 'svmBoundrangeString', 'svmExpoString', 'svmLinear2', 'svmLinear3', 'svmLinear', 'svmLinearWeights2', 'svmLinearWeights', 'svmPoly', 'svmRadialCost', 'svmRadial', 'svmRadialSigma', 'svmRadialWeights', 'svmSpectrumString', 'tan', 'tanSearch', 'treebag', 'vbmpRadial', 'vglmAdjCat', 'vglmContRatio', 'vglmCumulative', 'widekernelpls', 'WM', 'wsrf', 'xgbDART', 'xgbLinear', 'xgbTree', 'xyf'] 237
+COLUMN_INFO 'Label' ['Bagged AdaBoost', 'AdaBoost.M1', 'AdaBoost Classification Trees', 'Boosted Classification Trees', 'Adaptive Mixture Discriminant Analysis', 'Adaptive-Network-Based Fuzzy Inference System', 'Model Averaged Neural Network,', 'Naive Bayes Classifier with Attribute Weighting', ' Tree Augmented Naive Bayes Classifier with Attribute Weightin', 'Bagged MARS using gCV Pruning,', 'Bagged MARS,', 'Bagged FDA using gCV Pruning,', 'Bagged Flexible Discriminant Analysis,', 'Bagged Model', 'Generalized Additive Model using Splines', 'Bayesian Additive Regression Trees', 'Bayesian Generalized Linear Model', 'Binary Discriminant Analysis', 'Boosted Tree,', 'Bayesian Ridge Regression (Model Averaged)', 'The Bayesian lasso', 'Bayesian Ridge Regression', 'Bayesian Regularized Neural Networks', 'Boosted Linear Model,', 'Boosted Smoothing Spline,', 'Cost-Sensitive C5.0', 'C5.0,', 'Single C5.0 Ruleset,', 'Single C5.0 Tree,', 'Conditional Inference Random Forest', 'CHi-squared Automated Interaction Detection', 'SIMCA', 'Conditional Inference Tree', 'Cubist', 'Diagonal Discriminant Analysis', 'DeepBoost', 'Dynamic Evolving Neural-Fuzzy Inference System ', 'Stacked AutoEncoder Deep Neural Network', 'Linear Distance Weighted Discrimination', 'Distance Weighted Discrimination with Polynomial Kernel', 'Distance Weighted Discrimination with Radial Basis Function Kernel', 'Multivariate Adaptive Regression Spline', 'Extreme Learning Machine', 'Elasticnet', 'Tree Models from Genetic Algorithms', 'Random Forest by Randomization', 'Flexible Discriminant Analysis', 'Fuzzy Rules Using Genetic Cooperative-Competitive Learning and Pittsburgh', 'Fuzzy Inference Rules by Descent Method', 'Ridge Regression with Variable Selection', "Fuzzy Rules Using Chi's Method", 'Fuzzy Rules with Weight Factor', 'Simplified TSK Fuzzy Rules', 'Boosted Generalized Additive Model', 'Generalized Additive Model using LOESS', 'Gaussian Process', 'Gaussian Process with Polynomial Kernel', 'Gaussian Process with Radial Basis Function Kernel', 'Gradient Boosting Machines', 'Stochastic Gradient Boosting', 'Multivariate Adaptive Regression Splines', 'Fuzzy Rules via MOGUL', 'Genetic Lateral Tuning and Rule Selection of Linguistic Fuzzy Systems', 'Fuzzy Rules via Thrift', 'Boosted Generalized Linear Model', 'Negative Binomial Generalized Linear Model', 'glmnet', 'Generalized Linear Model', 'Generalized Linear Model with Stepwise Feature Selection', 'Generalized Partial Least Squares', 'Heteroscedastic Discriminant Analysis', 'High Dimensional Discriminant Analysis', 'High-Dimensional Regularized Discriminant Analysis', 'Hybrid Neural Fuzzy Inference System', 'Independent Component Regression', 'C4.5-like Trees', 'Rule-Based Classifier', 'Partial Least Squares', 'k-Nearest Neighbors', 'olynomial Kernel Regularized Least Squares', 'Radial Basis Function Kernel Regularized Least Squares', 'Least Angle Regression', 'The lasso', 'Linear Discriminant Analysis', 'Linear Regression with Backwards Selection', 'Linear Regression with Forward Selection', 'Linear Regression with Stepwise Selection', 'Robust Linear Discriminant Analysis', 'Linear Regression', 'Logistic Model Trees', 'Localized Linear Discriminant Analysis', 'Bagged Logic Regression', 'Boosted Logistic Regression', 'Logic Regression', 'Least Squares Support Vector Machine', 'Least Squares Support Vector Machine with Polynomial Kernel', 'Least Squares Support Vector Machine with Radial Basis Function Kernel', 'Learning Vector Quantization', 'Model Tree', 'Model Rules', 'Model Averaged Naive Bayes Classifier', 'Mixture Discriminant Analysis', 'Maximum Uncertainty Linear Discriminant Analysis', 'Multilayer Perceptron Network with Weight Decay', 'Multilayer Perceptron Network with Dropout', 'Multi-Layer Perceptron, with multiple layers', 'Multi-Layer Perceptron', 'Multilayer Perceptron Network by Stochastic Gradient Descent', 'Multi-Layer Perceptron, multiple layers', 'Monotone Multi-Layer Perceptron Neural Network', 'Multi-Step Adaptive MCP-Net', 'Penalized Multinomial Regression', 'Neural Network,', 'Neural Network', 'Naive Bayes', 'Naive Bayes Classifier', ' Semi-Naive Structure Learner Wrappe', 'Non-Negative Least Squares', 'Tree-Based Ensembles', 'Non-Informative Model', 'Single Rule Classification', 'Penalized Ordinal Regression', 'Oblique Random Forest', 'Optimal Weighted Nearest Neighbor Classifier', 'Nearest Shrunken Centroids', 'Parallel Random Forest', 'partDSA', 'Neural Networks with Feature Extraction', 'Principal Component Analysis', 'Penalized Discriminant Analysis', 'Penalized Linear Discriminant Analysis', 'Penalized Linear Regression', 'Penalized Logistic Regression', 'Partial Least Squares Generalized Linear Models ', ' Ordered Logistic or Probit Regressio', 'Projection Pursuit Regression', 'Patient Rule Induction Method', 'Greedy Prototype Selection', 'Robust Quadratic Discriminant Analysis', 'Quadratic Discriminant Analysis', 'Quantile Random Forest', 'Quantile Regression Neural Network', 'Ensembles of Generalized Linear Models', 'Random Forest', 'Radial Basis Function Network', 'Regularized Discriminant Analysis', 'Regularized Logistic Regression', 'Relaxed Lasso', 'Random Ferns', 'Factor-Based Linear Discriminant Analysis', 'Random Forest Rule-Based Model', 'Ridge Regression', 'Regularized Linear Discriminant Analysis', 'Robust Linear Model', 'Robust Mixture Discriminant Analysis', 'ROC-Based Classifier', 'Rotation Forest', 'CART', 'Cost-Sensitive CART', 'CART or Ordinal Responses', 'Quantile Regression with LASSO penalty', 'Non-Convex Penalized Quantile Regression', 'Regularized Random Forest', 'Robust Regularized Linear Discriminant Analysis', 'Robust SIMCA', 'Relevance Vector Machines with Linear Kernel', 'Relevance Vector Machines with Polynomial Kernel', 'Relevance Vector Machines with Radial Basis Function Kernel', 'Subtractive Clustering and Fuzzy c-Means Rules', 'Shrinkage Discriminant Analysis', 'Sparse Distance Weighted Discrimination', 'Fuzzy Rules Using the Structural Learning Algorithm on Vague Environment', 'Stabilized Linear Discriminant Analysis', 'Sparse Mixture Discriminant Analysis', 'Stabilized Nearest Neighbor Classifier', 'Sparse Linear Discriminant Analysis', 'Spike and Slab Regression', 'Sparse Partial Least Squares', 'Linear Discriminant Analysis with Stepwise Feature Selection', 'Quadratic Discriminant Analysis with Stepwise Feature Selection', 'Supervised Principal Component Analysis', 'Support Vector Machines with Boundrange String Kernel', 'Support Vector Machines with Exponential String Kernel', 'Support Vector Machines with Linear Kernel', 'L2 Regularized Support Vector Machine (dual) with Linear Kernel', 'L2 Regularized Linear Support Vector Machines with Class Weights', 'Linear Support Vector Machines with Class Weights', 'Support Vector Machines with Polynomial Kernel', 'Support Vector Machines with Radial Basis Function Kernel', 'Support Vector Machines with Class Weights', 'Support Vector Machines with Spectrum String Kernel', 'Tree Augmented Naive Bayes Classifier', ' Tree Augmented Naive Bayes Classifier Structure Learner Wrappe', 'Bagged CART', 'Variational Bayesian Multinomial Probit Regression', ' Adjacent Categories Probability Model for Ordinal Dat', ' Continuation Ratio Model for Ordinal Dat', ' Cumulative Probability Model for Ordinal Dat', 'Wang and Mendel Fuzzy Rules', 'Weighted Subspace Random Forest', 'eXtreme Gradient Boosting', 'Self-Organizing Maps'] 237
+COLUMN_INFO 'lib_C50' [nan, 1.0] 4
+COLUMN_INFO 'lib_CHAID' [nan, 1.0] 1
+COLUMN_INFO 'lib_Cubist' [nan, 1.0] 1
+COLUMN_INFO 'lib_FCNN4R' [nan, 1.0] 1
+COLUMN_INFO 'lib_HDclassif' [nan, 1.0] 1
+COLUMN_INFO 'lib_HiDimDA' [nan, 1.0] 2
+COLUMN_INFO 'lib_KRLS' [nan, 1.0] 2
+COLUMN_INFO 'lib_LiblineaR' [nan, 1.0] 3
+COLUMN_INFO 'lib_LogicReg' [nan, 1.0] 1
+COLUMN_INFO 'lib_MASS' [nan, 1.0] 10
+COLUMN_INFO 'lib_Matrix' [nan, 1.0] 1
+COLUMN_INFO 'lib_RRF' [nan, 1.0] 2
+COLUMN_INFO 'lib_RSNNS' [nan, 1.0] 6
+COLUMN_INFO 'lib_RWeka' [nan, 1.0] 7
+COLUMN_INFO 'lib_Rborist' [nan, 1.0] 1
+COLUMN_INFO 'lib_VGAM' [nan, 1.0] 3
+COLUMN_INFO 'lib_ada' [nan, 1.0] 1
+COLUMN_INFO 'lib_adabag' [1.0, nan] 2
+COLUMN_INFO 'lib_adaptDA' [nan, 1.0] 1
+COLUMN_INFO 'lib_arm' [nan, 1.0] 1
+COLUMN_INFO 'lib_bartMachine' [nan, 1.0] 1
+COLUMN_INFO 'lib_binda' [nan, 1.0] 1
+COLUMN_INFO 'lib_bnclassify' [nan, 1.0] 7
+COLUMN_INFO 'lib_brnn' [nan, 1.0] 1
+COLUMN_INFO 'lib_bst' [nan, 1.0] 3
+COLUMN_INFO 'lib_caTools' [nan, 1.0] 1
+COLUMN_INFO 'lib_caret' [nan, 1.0] 1
+COLUMN_INFO 'lib_class' [nan, 1.0] 1
+COLUMN_INFO 'lib_deepboost' [nan, 1.0] 1
+COLUMN_INFO 'lib_deepnet' [nan, 1.0] 1
+COLUMN_INFO 'lib_dplyr' [nan, 1.0] 1
+COLUMN_INFO 'lib_e1071' [nan, 1.0] 5
+COLUMN_INFO 'lib_earth' [nan, 1.0] 7
+COLUMN_INFO 'lib_elasticnet' [nan, 1.0] 3
+COLUMN_INFO 'lib_elmNN' [nan, 1.0] 1
+COLUMN_INFO 'lib_evtree' [nan, 1.0] 1
+COLUMN_INFO 'lib_extraTrees' [nan, 1.0] 1
+COLUMN_INFO 'lib_fastAdaboost' [nan, 1.0] 1
+COLUMN_INFO 'lib_fastICA' [nan, 1.0] 1
+COLUMN_INFO 'lib_foba' [nan, 1.0] 1
+COLUMN_INFO 'lib_foreach' [nan, 1.0] 1
+COLUMN_INFO 'lib_frbs' [nan, 1.0] 14
+COLUMN_INFO 'lib_gam' [nan, 1.0] 2
+COLUMN_INFO 'lib_gbm' [nan, 1.0] 1
+COLUMN_INFO 'lib_glmnet' [nan, 1.0] 1
+COLUMN_INFO 'lib_gpls' [nan, 1.0] 1
+COLUMN_INFO 'lib_h2o' [nan, 1.0] 2
+COLUMN_INFO 'lib_hda' [nan, 1.0] 1
+COLUMN_INFO 'lib_import' [nan, 1.0] 2
+COLUMN_INFO 'lib_inTrees' [nan, 1.0] 1
+COLUMN_INFO 'lib_ipred' [nan, 1.0] 2
+COLUMN_INFO 'lib_keras' [nan, 1.0] 4
+COLUMN_INFO 'lib_kerndwd' [nan, 1.0] 3
+COLUMN_INFO 'lib_kernlab' [nan, 1.0] 20
+COLUMN_INFO 'lib_kknn' [nan, 1.0] 1
+COLUMN_INFO 'lib_klaR' [nan, 1.0] 5
+COLUMN_INFO 'lib_kohonen' [nan, 1.0] 1
+COLUMN_INFO 'lib_lars' [nan, 1.0] 2
+COLUMN_INFO 'lib_leaps' [nan, 1.0] 3
+COLUMN_INFO 'lib_logicFS' [nan, 1.0] 1
+COLUMN_INFO 'lib_mboost' [nan, 1.0] 3
+COLUMN_INFO 'lib_mda' [nan, 1.0] 5
+COLUMN_INFO 'lib_mgcv' [nan, 1.0] 2
+COLUMN_INFO 'lib_monmlp' [nan, 1.0] 1
+COLUMN_INFO 'lib_monomvn' [nan, 1.0] 3
+COLUMN_INFO 'lib_msaenet' [nan, 1.0] 1
+COLUMN_INFO 'lib_mxnet' [nan, 1.0] 1
+COLUMN_INFO 'lib_mxnet"' [nan, 1.0] 1
+COLUMN_INFO 'lib_naivebayes' [nan, 1.0] 1
+COLUMN_INFO 'lib_neuralnet' [nan, 1.0] 1
+COLUMN_INFO 'lib_nnet' [nan, 1.0] 4
+COLUMN_INFO 'lib_nnls' [nan, 1.0] 1
+COLUMN_INFO 'lib_nodeHarvest' [nan, 1.0] 1
+COLUMN_INFO 'lib_obliqueRF' [nan, 1.0] 4
+COLUMN_INFO 'lib_ordinalNet' [nan, 1.0] 1
+COLUMN_INFO 'lib_pamr' [nan, 1.0] 1
+COLUMN_INFO 'lib_partDSA' [nan, 1.0] 1
+COLUMN_INFO 'lib_party' [nan, 1.0] 4
+COLUMN_INFO 'lib_penalized' [nan, 1.0] 1
+COLUMN_INFO 'lib_penalizedLDA' [nan, 1.0] 1
+COLUMN_INFO 'lib_pls' [nan, 1.0] 5
+COLUMN_INFO 'lib_plsRglm' [nan, 1.0] 1
+COLUMN_INFO 'lib_plyr' [1.0, nan] 24
+COLUMN_INFO 'lib_protoclass' [nan, 1.0] 1
+COLUMN_INFO 'lib_proxy' [nan, 1.0] 1
+COLUMN_INFO 'lib_qrnn' [nan, 1.0] 1
+COLUMN_INFO 'lib_quantregForest' [nan, 1.0] 1
+COLUMN_INFO 'lib_rFerns' [nan, 1.0] 1
+COLUMN_INFO 'lib_randomForest' [nan, 1.0] 4
+COLUMN_INFO 'lib_randomGLM' [nan, 1.0] 1
+COLUMN_INFO 'lib_ranger' [nan, 1.0] 1
+COLUMN_INFO 'lib_relaxo' [nan, 1.0] 1
+COLUMN_INFO 'lib_robustDA' [nan, 1.0] 1
+COLUMN_INFO 'lib_rocc' [nan, 1.0] 1
+COLUMN_INFO 'lib_rotationForest' [nan, 1.0] 2
+COLUMN_INFO 'lib_rpart' [nan, 1.0] 5
+COLUMN_INFO 'lib_rpartScore' [nan, 1.0] 1
+COLUMN_INFO 'lib_rqPen' [nan, 1.0] 2
+COLUMN_INFO 'lib_rrcov' [nan, 1.0] 3
+COLUMN_INFO 'lib_rrcovHD' [nan, 1.0] 2
+COLUMN_INFO 'lib_rrlda' [nan, 1.0] 1
+COLUMN_INFO 'lib_sda' [nan, 1.0] 1
+COLUMN_INFO 'lib_sdwd' [nan, 1.0] 1
+COLUMN_INFO 'lib_snn' [nan, 1.0] 2
+COLUMN_INFO 'lib_sparseLDA' [nan, 1.0] 2
+COLUMN_INFO 'lib_sparsediscrim' [nan, 1.0] 3
+COLUMN_INFO 'lib_spikeslab' [nan, 1.0] 1
+COLUMN_INFO 'lib_spls' [nan, 1.0] 1
+COLUMN_INFO 'lib_stepPlr' [nan, 1.0] 1
+COLUMN_INFO 'lib_superpc' [nan, 1.0] 1
+COLUMN_INFO 'lib_supervisedPRIM' [nan, 1.0] 1
+COLUMN_INFO 'lib_vbmp' [nan, 1.0] 1
+COLUMN_INFO 'lib_wsrf' [nan, 1.0] 1
+COLUMN_INFO 'lib_xgboost' [nan, 1.0] 3
+COLUMN_INFO 'type_Classification' [1.0, nan] 189
+COLUMN_INFO 'type_Regression' [nan, 1.0] 136
+COLUMN_INFO 'tag_' [nan, 1.0] 49
+COLUMN_INFO 'tag_Accepts Case Weights' [nan, 1.0] 27
+COLUMN_INFO 'tag_Bagging' [1.0, nan] 16
+COLUMN_INFO 'tag_Bayesian Model' [nan, 1.0] 16
+COLUMN_INFO 'tag_Binary Predictors Only' [nan, 1.0] 2
+COLUMN_INFO 'tag_Boosting' [1.0, nan] 16
+COLUMN_INFO 'tag_Categorical Predictors Only' [nan, 1.0] 7
+COLUMN_INFO 'tag_Cost Sensitive Learning' [nan, 1.0] 4
+COLUMN_INFO 'tag_Discriminant Analysis' [nan, 1.0] 31
+COLUMN_INFO 'tag_Discriminant Analysis Models' [nan, 1.0] 1
+COLUMN_INFO 'tag_Ensemble Model' [1.0, nan] 38
+COLUMN_INFO 'tag_Feature Extraction' [nan, 1.0] 10
+COLUMN_INFO 'tag_Feature Selection Wrapper' [nan, 1.0] 7
+COLUMN_INFO 'tag_Gaussian Process' [nan, 1.0] 4
+COLUMN_INFO 'tag_Generalized Additive Model' [nan, 1.0] 5
+COLUMN_INFO 'tag_Generalized Linear Model' [nan, 1.0] 14
+COLUMN_INFO 'tag_Generalized Linear Models' [nan, 1.0] 1
+COLUMN_INFO 'tag_Handle Missing Predictor Data' [nan, 1.0] 4
+COLUMN_INFO 'tag_Implicit Feature Selection' [nan, 1.0] 54
+COLUMN_INFO 'tag_Kernel Method' [nan, 1.0] 26
+COLUMN_INFO 'tag_L1 Regularization' [nan, 1.0] 11
+COLUMN_INFO 'tag_L2 Regularization' [nan, 1.0] 21
+COLUMN_INFO 'tag_Linear Classifier' [nan, 1.0] 40
+COLUMN_INFO 'tag_Linear Classifier Models' [nan, 1.0] 1
+COLUMN_INFO 'tag_Linear Regression' [nan, 1.0] 36
+COLUMN_INFO 'tag_Logic Regression' [nan, 1.0] 2
+COLUMN_INFO 'tag_Logistic Regression' [nan, 1.0] 11
+COLUMN_INFO 'tag_Mixture Model' [nan, 1.0] 3
+COLUMN_INFO 'tag_Model Tree' [nan, 1.0] 1
+COLUMN_INFO 'tag_Multivariate Adaptive Regression Splines' [nan, 1.0] 7
+COLUMN_INFO 'tag_Neural Network' [nan, 1.0] 23
+COLUMN_INFO 'tag_Oblique Tree' [nan, 1.0] 4
+COLUMN_INFO 'tag_Ordinal Outcomes' [nan, 1.0] 4
+COLUMN_INFO 'tag_Partial Least Squares' [nan, 1.0] 7
+COLUMN_INFO 'tag_Patient Rule Induction Method' [nan, 1.0] 1
+COLUMN_INFO 'tag_Polynomial Model' [nan, 1.0] 14
+COLUMN_INFO 'tag_Prototype Models' [nan, 1.0] 7
+COLUMN_INFO 'tag_Quantile Regression' [nan, 1.0] 3
+COLUMN_INFO 'tag_ROC Curves' [nan, 1.0] 1
+COLUMN_INFO 'tag_Radial Basis Function' [nan, 1.0] 11
+COLUMN_INFO 'tag_Random Forest' [nan, 1.0] 16
+COLUMN_INFO 'tag_Regularization' [nan, 1.0] 9
+COLUMN_INFO 'tag_Relevance Vector Machines' [nan, 1.0] 3
+COLUMN_INFO 'tag_Ridge Regression' [nan, 1.0] 2
+COLUMN_INFO 'tag_Robust Methods' [nan, 1.0] 2
+COLUMN_INFO 'tag_Robust Model' [nan, 1.0] 5
+COLUMN_INFO 'tag_Rule-Based Model' [nan, 1.0] 24
+COLUMN_INFO 'tag_Self-Organising Maps' [nan, 1.0] 1
+COLUMN_INFO 'tag_String Kernel' [nan, 1.0] 3
+COLUMN_INFO 'tag_Support Vector Machines' [nan, 1.0] 16
+COLUMN_INFO 'tag_Tree-Based Model' [1.0, nan] 28
+COLUMN_INFO 'tag_Two Class Only' [nan, 1.0] 6
+COLUMN_INFO 'tag_UL' [nan, 1.0] 1

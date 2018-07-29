@@ -113,17 +113,17 @@ def test2():
     rows = []
     for mi in data:
         row = [mi.mMethod , mi.mLabel]
-        for l in model_libraries:
+        for l in sorted(model_libraries):
             row = row + [(1 if(l in mi.mLibraries) else None)]
-        for t in model_types:
+        for t in sorted(model_types):
             row = row + [(1 if(t in mi.mTypes) else None)]
-        for tag in model_tags:
+        for tag in sorted(model_tags):
             row = row + [(1 if(tag in mi.mTags) else None)]
         rows = rows + [row]
     cols = ["Method" , "Label"]
-    cols = cols + ["lib_" + l for l in model_libraries]
-    cols = cols + ["type_" + t for t in model_types]
-    cols = cols + ["tag_" + tag for tag in model_tags]
+    cols = cols + ["lib_" + l for l in sorted(model_libraries)]
+    cols = cols + ["type_" + t for t in sorted(model_types)]
+    cols = cols + ["tag_" + tag for tag in sorted(model_tags)]
     df = pd.DataFrame(rows , columns=cols)
     return df
 
@@ -132,7 +132,8 @@ def test3():
     print(df.head())
     print(df.describe())
     for col in df.columns:
-        print("COLUMN_INFO" , "'" + col + "'" , list(df[col].unique()))
+        count_1 =  df[col].count()
+        print("COLUMN_INFO" , "'" + col + "'" , list(df[col].unique()) , count_1)
     df.to_csv("caret_model_infos_detailed.csv")
     
 test3()
