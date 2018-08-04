@@ -11,4 +11,9 @@ The goal of this POC is to see if this framework can be applied to R caret model
 Some machine learning libraries (xgboost , lightGBM) already support exporting and loading models in a specific 
 JSON format, which makes implementing these cases straightforward (python models are already supported in sklearn2sql).
 
+A good introduction for Caret is given by the author ( @topepo ) :
+
+Kuhn, M. (2008), “Building predictive models in R using the caret package, ” Journal of Statistical Software, (http://www.jstatsoft.org/article/view/v028i05/v28i05.pdf). 
+
+
 Your feedback is welcome.
