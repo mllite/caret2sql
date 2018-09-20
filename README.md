@@ -6,10 +6,10 @@ This is an attempt to design a SQL-based deployment system for R caret models re
 
 Sklearn2sql provides a framework for translating [scikit-learn](https://github.com/scikit-learn/scikit-learn) predictive models into a SQL code for deployment purposes. Using this framework, for example, it is possible for a C, perl or java developper to deploy such a model simply by executing the [generated SQL code](https://github.com/antoinecarme/sklearn2sql-demo/blob/master/sample_outputs_round_4/MLPClassifier/BreastCancer/oracle/demo1_MLPClassifier_oracle.sql). The system supports the major market databases.
 
-The goal of this POC is to see if this framework can be applied to R caret models, eventually by using a common JSON format with python version models (mapping R with python equivalent models).
+The goal of this POC is to see if this framework can be applied to R caret models, eventually by using a common JSON format with python version models (mapping caret models with equivalent scikit-learn models).
 
 Some machine learning libraries (xgboost , lightGBM) already support exporting and loading models in a specific 
-JSON format, which makes implementing these cases straightforward (python models are already supported in sklearn2sql).
+JSON format, which makes implementing these cases straightforward (python xgboost models are already supported in sklearn2sql).
 
 A good introduction for Caret is given by the author ( @topepo ) :
 
