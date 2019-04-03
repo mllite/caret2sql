@@ -16,7 +16,7 @@ WITH linear_input AS
 (SELECT `ADS`.`KEY` AS `KEY`, CAST(`ADS`.`Feature_0` AS DOUBLE) AS `Feature_0`, CAST(`ADS`.`Feature_1` AS DOUBLE) AS `Feature_1`, CAST(`ADS`.`Feature_2` AS DOUBLE) AS `Feature_2`, CAST(`ADS`.`Feature_3` AS DOUBLE) AS `Feature_3` 
 FROM freidman3 AS `ADS`), 
 linear_model_cte AS 
-(SELECT linear_input.`KEY` AS `KEY`, -0.003201548154027199 * linear_input.`Feature_0` + 0.0001885869846090814 * linear_input.`Feature_1` + 0.5834540702812887 * linear_input.`Feature_2` + 0.005364968358498984 * linear_input.`Feature_3` + 0.980281609332857 AS `Estimator` 
+(SELECT linear_input.`KEY` AS `KEY`, 0.0 * linear_input.`Feature_0` + 0.0 * linear_input.`Feature_1` + 0.04530210646121895 * linear_input.`Feature_2` + 0.0 * linear_input.`Feature_3` + 1.3371787432702071 AS `Estimator` 
 FROM linear_input)
  SELECT linear_model_cte.`KEY` AS `KEY`, linear_model_cte.`Estimator` AS `Estimator` 
 FROM linear_model_cte

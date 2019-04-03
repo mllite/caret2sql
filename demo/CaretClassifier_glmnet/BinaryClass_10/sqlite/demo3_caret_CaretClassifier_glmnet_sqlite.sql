@@ -16,7 +16,7 @@ WITH linear_input AS
 (SELECT "ADS"."KEY" AS "KEY", CAST("ADS"."Feature_0" AS FLOAT) AS "Feature_0", CAST("ADS"."Feature_1" AS FLOAT) AS "Feature_1", CAST("ADS"."Feature_2" AS FLOAT) AS "Feature_2", CAST("ADS"."Feature_3" AS FLOAT) AS "Feature_3", CAST("ADS"."Feature_4" AS FLOAT) AS "Feature_4", CAST("ADS"."Feature_5" AS FLOAT) AS "Feature_5", CAST("ADS"."Feature_6" AS FLOAT) AS "Feature_6", CAST("ADS"."Feature_7" AS FLOAT) AS "Feature_7", CAST("ADS"."Feature_8" AS FLOAT) AS "Feature_8", CAST("ADS"."Feature_9" AS FLOAT) AS "Feature_9" 
 FROM "BinaryClass_10" AS "ADS"), 
 linear_model_cte AS 
-(SELECT linear_input."KEY" AS "KEY", 0.0 * linear_input."Feature_0" + 0.0 * linear_input."Feature_1" + 0.0 * linear_input."Feature_2" + 0.0 * linear_input."Feature_3" + 0.0 * linear_input."Feature_4" + 0.0 * linear_input."Feature_5" + 0.0 * linear_input."Feature_6" + 0.0 * linear_input."Feature_7" + 0.0 * linear_input."Feature_8" + 1.3803520139737069 * linear_input."Feature_9" + 0.2264125719712579 AS lincomb 
+(SELECT linear_input."KEY" AS "KEY", -0.11376229539704255 * linear_input."Feature_0" + 0.0 * linear_input."Feature_1" + 0.0 * linear_input."Feature_2" + 0.0 * linear_input."Feature_3" + 0.0 * linear_input."Feature_4" + 0.0 * linear_input."Feature_5" + 0.0 * linear_input."Feature_6" + -0.31853886431955314 * linear_input."Feature_7" + 0.0 * linear_input."Feature_8" + 0.12756897466011996 * linear_input."Feature_9" + 0.02610056980810779 AS lincomb 
 FROM linear_input), 
 dot_prod_logistic AS 
 (SELECT linear_model_cte."KEY" AS "KEY", linear_model_cte.lincomb AS dot_prod, 1.0 / (1.0 + exp(min(100.0, max(-100.0, -linear_model_cte.lincomb)))) AS logistic 
