@@ -37,7 +37,7 @@ lSQL = content$model$SQLGenrationResult[[1]]$SQL
 cat(lSQL);
 ```
 
-# Implemenntation Notes
+# Supported Models
 
 The most used models are now implemented and usable in the [web-service](https://github.com/antoinecarme/caret2sql/issues/3)
 
