@@ -17,7 +17,7 @@ library(caret, quiet = TRUE)
 library(base64enc)
 library(httr, quiet = TRUE)
 
-## multiclass classification in iris dataset:
+## multiclass classification on iris dataset:
 
 # build/train a caret model
 model = train(Species ~ ., data = iris, method = "ctree2")
@@ -40,7 +40,7 @@ cat(lSQL);
 
 # Supported Models
 
-The most used models are now implemented and usable in the [web-service](https://github.com/antoinecarme/caret2sql/issues/3)
+The most used models are now implemented in the [web-service](https://github.com/antoinecarme/caret2sql/issues/3)
 
 1. Classification models (GLMxx , naive bayes, decision trees (rpart + ctree + ctree2), SVMs , Neural Nets, Earth/MARS )
 2. Regressions (almost he same as above , except naive bayes)
