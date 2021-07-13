@@ -35,6 +35,7 @@ content = content(r)
 lSQL = content$model$SQLGenrationResult[[1]]$SQL
 
 cat(lSQL);
+
 ```
 
 # Supported Models
